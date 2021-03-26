@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "npm-run-all -p develop:*",
     "develop:functions": "yarn build:functions --watch",
-    "develop:gatsby": "gatsby develop",
+    "develop:gatsby": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop",
     "build": "npm-run-all -p build:*",
     "build:gatsby": "gatsby build",
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "gatsby": "^3.1.1",
-    "national-rail-darwin": "^1.0.8",
+    "national-rail-darwin-promises": "^2.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },

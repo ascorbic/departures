@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Minecart LCD Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Minecart LCD Regular"), url("./minecart-lcd.woff") format("woff");
+}
+
+@font-face {
+  font-family: "British Rail";
+  src: url("./britrail.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
