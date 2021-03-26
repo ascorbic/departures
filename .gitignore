@@ -2,3 +2,7 @@ node_modules/
 .cache/
 public
 netlify/functions/**/*.js
+.env
+
+# Local Netlify folder
+.netlify

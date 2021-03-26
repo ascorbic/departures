@@ -8,7 +8,9 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "npm-run-all -p develop:*",
+    "develop:functions": "yarn build:functions --watch",
+    "develop:gatsby": "gatsby develop",
     "start": "gatsby develop",
     "build": "npm-run-all -p build:*",
     "build:gatsby": "gatsby build",
