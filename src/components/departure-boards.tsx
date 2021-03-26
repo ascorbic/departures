@@ -1,6 +1,11 @@
 import * as React from "react";
 
-import { mainTable, tableWrapper, main } from "./departure-boards.module.css";
+import {
+  mainTable,
+  tableWrapper,
+  main,
+  noServices,
+} from "./departure-boards.module.css";
 interface Station {
   name: string;
   crs: string;
@@ -78,14 +83,22 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             </tr>
           </thead>
           <tbody>
-            {departures.map((service) => (
+            {departures.length ? (
+              departures.map((service) => (
+                <tr>
+                  <td>{service.std}</td>
+                  <td>{service.destination[0].name}</td>
+                  <td>{service.platform}</td>
+                  <td>{service.etd}</td>
+                </tr>
+              ))
+            ) : (
               <tr>
-                <td>{service.std}</td>
-                <td>{service.destination[0].name}</td>
-                <td>{service.platform}</td>
-                <td>{service.etd}</td>
+                <td className={noServices} colSpan={4}>
+                  No services
+                </td>
               </tr>
-            ))}
+            )}
           </tbody>
         </table>
         <h2>Departures</h2>
@@ -101,14 +114,22 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             </tr>
           </thead>
           <tbody>
-            {arrivals.map((service) => (
+            {arrivals.length ? (
+              arrivals.map((service) => (
+                <tr>
+                  <td>{service.sta}</td>
+                  <td>{service.origin[0].name}</td>
+                  <td>{service.platform}</td>
+                  <td>{service.eta}</td>
+                </tr>
+              ))
+            ) : (
               <tr>
-                <td>{service.sta}</td>
-                <td>{service.origin[0].name}</td>
-                <td>{service.platform}</td>
-                <td>{service.eta}</td>
+                <td className={noServices} colSpan={4}>
+                  No services
+                </td>
               </tr>
-            ))}
+            )}
           </tbody>
         </table>
         <h2>Arrivals</h2>

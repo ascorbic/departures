@@ -35,7 +35,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 640px) {
   :root {
     --title-font-size: 28px;
     --display-font-size: 18px;
