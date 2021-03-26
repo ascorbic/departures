@@ -2,7 +2,7 @@ import * as React from "react";
 
 import "../style/style.css";
 
-import { mainTable, station } from "./home.module.css";
+import { mainTable, station, main } from "./home.module.css";
 
 interface Station {
   name: string;
@@ -65,50 +65,54 @@ const IndexPage = () => {
   }, [crs]);
 
   return (
-    <main>
+    <main className={main}>
       <title>Home Page</title>
-      <h1 className={station}>Departures</h1>
-      <table className={mainTable}>
-        <thead>
-          <tr>
-            <th>Time</th>
-            <th>Destination</th>
-            <th>Plat</th>
-            <th>Expected</th>
-          </tr>
-        </thead>
-        <tbody>
-          {departures.map((service) => (
+      <section>
+        <h1 className={station}>Departures</h1>
+        <table className={mainTable}>
+          <thead>
             <tr>
-              <td>{service.std}</td>
-              <td>{service.destination[0].name}</td>
-              <td>{service.platform}</td>
-              <td>{service.etd}</td>
+              <th>Time</th>
+              <th>Destination</th>
+              <th>Plat</th>
+              <th>Expected</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
-      <h1 className={station}>Arrivals</h1>
-      <table className={mainTable}>
-        <thead>
-          <tr>
-            <th>Time</th>
-            <th>Destination</th>
-            <th>Plat</th>
-            <th>Expected</th>
-          </tr>
-        </thead>
-        <tbody>
-          {arrivals.map((service) => (
+          </thead>
+          <tbody>
+            {departures.map((service) => (
+              <tr>
+                <td>{service.std}</td>
+                <td>{service.destination[0].name}</td>
+                <td>{service.platform}</td>
+                <td>{service.etd}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h1 className={station}>Arrivals</h1>
+        <table className={mainTable}>
+          <thead>
             <tr>
-              <td>{service.sta}</td>
-              <td>{service.origin[0].name}</td>
-              <td>{service.platform}</td>
-              <td>{service.eta}</td>
+              <th>Time</th>
+              <th>Destination</th>
+              <th>Plat</th>
+              <th>Expected</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {arrivals.map((service) => (
+              <tr>
+                <td>{service.sta}</td>
+                <td>{service.origin[0].name}</td>
+                <td>{service.platform}</td>
+                <td>{service.eta}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
     </main>
   );
 };

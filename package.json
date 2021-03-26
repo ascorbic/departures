@@ -14,7 +14,7 @@
     "start": "gatsby develop",
     "build": "npm-run-all -p build:*",
     "build:gatsby": "gatsby build",
-    "build:functions": "tsc -p netlify/functions/",
+    "build:functions": "tsc -p netlify/",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
