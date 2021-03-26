@@ -10,13 +10,20 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "npm-run-all -p build:*",
+    "build:gatsby": "gatsby build",
+    "build:functions": "tsc -p netlify/functions/",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
     "gatsby": "^3.1.1",
+    "national-rail-darwin": "^1.0.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.73",
+    "npm-run-all": "^4.1.5"
   }
 }
