@@ -1,0 +1,30 @@
+.wrapper {
+  margin: 0.5em auto;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "British Rail";
+  font-size: var(--title-font-size);
+  background-color: rgb(230, 230, 230);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+
+  max-width: calc(100vw - 2em);
+}
+
+.wrapper div {
+  height: calc(var(--title-font-size) * 0.95);
+  margin: 0 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.wrapper::before {
+  line-height: 1.2;
+
+  font-family: "British Rail";
+  content: "=";
+  display: block;
+  background-color: var(--rail-red);
+  color: white;
+}

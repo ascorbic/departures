@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "gatsby": "^3.1.1",
+    "gatsby-source-filesystem": "^3.1.0",
+    "gatsby-transformer-csv": "^3.1.0",
     "national-rail-darwin-promises": "^2.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"

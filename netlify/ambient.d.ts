@@ -1,1 +1,1 @@
-declare module 'national-rail-darwin-promises';
+declare module "national-rail-darwin-promises";

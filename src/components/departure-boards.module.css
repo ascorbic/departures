@@ -1,0 +1,66 @@
+.tableWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 2em;
+  border-spacing: 0;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mainTable tbody {
+  background-color: #111111;
+}
+
+.mainTable td {
+  font-family: "Minecart LCD Regular";
+  color: gold;
+  font-size: var(--body-font-size);
+  padding: 0 0.5em;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mainTable th {
+  font-family: "British Rail";
+  color: white;
+  padding: 0.2em 0.5em 0 0.5em;
+  font-size: var(--body-font-size);
+  font-weight: normal;
+}
+
+.mainTable tfoot th {
+  font-size: var(--display-font-size);
+}
+
+.tableWrapper h2 {
+  font-family: "British Rail";
+  font-size: var(--display-font-size);
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  margin: 0.2em 0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  place-items: stretch center;
+}
+
+@media only screen and (max-width: 1100px) {
+  .main {
+    grid-template-columns: 1fr;
+    place-items: stretch;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .tableWrapper {
+    padding: 0 1em;
+  }
+}

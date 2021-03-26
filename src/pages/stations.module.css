@@ -1,0 +1,6 @@
+.station {
+  font-family: "British Rail";
+  font-size: var(--title-font-size);
+  font-weight: normal;
+  text-align: center;
+}
