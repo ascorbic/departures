@@ -7,13 +7,16 @@ const formatter = new Intl.DateTimeFormat("en-GB", {
   second: "2-digit",
   hour12: false,
 });
-export function useCurrentTimeString() {
-  const [time, setTime] = useState("");
+export function useCurrentTime() {
+  const [timeString, setTimeString] = useState("");
+  const [minutes, setMinutes] = useState(0);
   useEffect(() => {
     const timer = setInterval(() => {
-      setTime(formatter.format(new Date()));
+      const date = new Date();
+      setTimeString(formatter.format(date));
+      setMinutes(date.getMinutes());
     }, 500);
     return () => clearInterval(timer);
   }, []);
-  return time;
+  return { timeString, minutes };
 }

@@ -10,6 +10,7 @@ module.exports = {
         path: `${__dirname}/data/`,
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-csv`,
   ],
 };

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useCurrentTime } from "../utils/hooks";
 
 import {
   mainTable,
@@ -41,14 +42,14 @@ type Service = Arrival | Departure;
 
 interface Props {
   crs: string;
-  time?: string;
 }
 export const DepartureBoards: React.FC<Props> = function DepartureBoards({
   crs,
-  time,
 }) {
   const [departures, setDepartures] = React.useState<Array<Departure>>([]);
   const [arrivals, setArrivals] = React.useState<Array<Arrival>>([]);
+
+  const { timeString, minutes } = useCurrentTime();
 
   React.useEffect(() => {
     async function getData() {
@@ -72,7 +73,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
       setArrivals(arrs);
     }
     getData();
-  }, [crs]);
+  }, [crs, minutes]);
 
   return (
     <div className={main}>
@@ -105,9 +106,9 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             )}
           </tbody>
         </table>
-        {time && (
+        {timeString && (
           <div className={timeStyle}>
-            <span>{time}</span>
+            <span>{timeString}</span>
           </div>
         )}
 
@@ -142,9 +143,9 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             )}
           </tbody>
         </table>
-        {time && (
+        {timeString && (
           <div className={timeStyle}>
-            <div>{time}</div>
+            <div>{timeString}</div>
           </div>
         )}
         <h2>Arrivals</h2>
