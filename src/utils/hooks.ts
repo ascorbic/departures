@@ -20,3 +20,19 @@ export function useCurrentTime() {
   }, []);
   return { timeString, minutes };
 }
+
+const frames = ["-", "\\", "|", "/"];
+
+export function useSpinner(columns: number) {
+  const [index, setIndex] = useState(0);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((idx) => (idx + 1) % columns);
+    }, 50);
+    return () => clearInterval(timer);
+  }, [setIndex, columns]);
+
+  return `${"&nbsp;".repeat(index)}${frames[index % 4]}${"&nbsp;".repeat(
+    columns - 1 - index
+  )}`;
+}

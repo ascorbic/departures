@@ -9,6 +9,7 @@ import {
   timeStyle,
   tdR,
 } from "./departure-boards.module.css";
+import { Spinner } from "./spinner";
 interface Station {
   name: string;
   crs: string;
@@ -46,8 +47,8 @@ interface Props {
 export const DepartureBoards: React.FC<Props> = function DepartureBoards({
   crs,
 }) {
-  const [departures, setDepartures] = React.useState<Array<Departure>>([]);
-  const [arrivals, setArrivals] = React.useState<Array<Arrival>>([]);
+  const [departures, setDepartures] = React.useState<Array<Departure>>();
+  const [arrivals, setArrivals] = React.useState<Array<Arrival>>();
 
   const { timeString, minutes } = useCurrentTime();
 
@@ -88,7 +89,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             </tr>
           </thead>
           <tbody>
-            {departures.length ? (
+            {departures?.length ? (
               departures.map((service) => (
                 <tr>
                   <td>{service.std}</td>
@@ -100,7 +101,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             ) : (
               <tr>
                 <td className={noServices} colSpan={4}>
-                  No services
+                  {departures ? "No services" : <Spinner />}
                 </td>
               </tr>
             )}
@@ -125,7 +126,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             </tr>
           </thead>
           <tbody>
-            {arrivals.length ? (
+            {arrivals?.length ? (
               arrivals.map((service) => (
                 <tr>
                   <td>{service.sta}</td>
@@ -137,7 +138,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             ) : (
               <tr>
                 <td className={noServices} colSpan={4}>
-                  No services
+                  {arrivals ? "No services" : <Spinner />}
                 </td>
               </tr>
             )}
