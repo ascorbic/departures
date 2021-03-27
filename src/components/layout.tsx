@@ -12,7 +12,12 @@ export const Layout: React.FC<Props> = function Layout({
 }) {
   return (
     <div className={layout}>
-      <Helmet title={title} />
+      <Helmet title={title}>
+        <meta
+          name="description"
+          content="Live station arrival and departure boards"
+        />
+      </Helmet>
       {children}
     </div>
   );
