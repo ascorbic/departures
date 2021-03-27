@@ -2,7 +2,7 @@
   margin: 0.5em auto;
   display: inline-flex;
   flex-direction: row;
-  font-family: "British Rail";
+  font-family: var(--primary-font);
   font-size: var(--title-font-size);
   background-color: rgb(230, 230, 230);
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
@@ -19,6 +19,6 @@
 
 .homeLink::before {
   line-height: 1.25;
-  font-family: "British Rail";
+  font-family: var(--primary-font);
   content: "=";
 }

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
-import { layout, visuallyHidden } from "./layout.module.css";
+import { layout, visuallyHidden, footer } from "./layout.module.css";
 import "../style/style.css";
 import ogimage from "../images/departure.webp";
 import { graphql, useStaticQuery } from "gatsby";
@@ -41,6 +41,12 @@ export const Layout: React.FC<Props> = function Layout({
       </Helmet>
       <h1 className={visuallyHidden}>{title}</h1>
       {children}
+      <footer className={footer}>
+        Made with = by{" "}
+        <a href="https://twitter.com/ascorbic">
+          <span>@</span>ascorbic
+        </a>
+      </footer>
     </div>
   );
 };

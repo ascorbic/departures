@@ -20,7 +20,7 @@
 }
 
 .mainTable td {
-  font-family: "Minecart LCD Regular";
+  font-family: var(--table-font);
   color: gold;
   font-size: var(--body-font-size);
   padding: 0 0.5em;
@@ -31,7 +31,7 @@
 }
 
 .mainTable th {
-  font-family: "British Rail";
+  font-family: var(--primary-font);
   color: white;
   padding: 0.5em 0.5em 0 0.5em;
   font-size: var(--body-font-size);
@@ -43,7 +43,7 @@
 }
 
 .tableWrapper h2 {
-  font-family: "British Rail";
+  font-family: var(--primary-font);
   font-size: var(--display-font-size);
   font-weight: normal;
   color: white;
@@ -65,7 +65,7 @@
 }
 
 .timeStyle {
-  font-family: "Minecart LCD Regular";
+  font-family: var(--table-font);
   color: gold;
   flex: 1;
   display: flex;
