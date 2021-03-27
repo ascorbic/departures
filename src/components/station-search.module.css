@@ -10,18 +10,6 @@
   width: 15em;
 }
 
-.wrapper div {
-  border: none;
-  font-family: "British Rail";
-  font-size: var(--title-font-size);
-  background-color: rgb(230, 230, 230);
-  flex: 1;
-  text-align: center;
-  padding-top: 0.25em;
-  width: 11.5em;
-  line-height: 0.8;
-}
-
 .homeLink {
   display: block;
   background-color: var(--rail-red);

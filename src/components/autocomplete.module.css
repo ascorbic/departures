@@ -1,0 +1,46 @@
+.input {
+  border: none;
+  font-family: "British Rail";
+  font-size: var(--title-font-size);
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+  padding-top: 0.15em;
+  line-height: 0.8;
+
+  width: 100%;
+}
+
+.suggestionsContainerOpen {
+  position: absolute;
+  background-color: white;
+  font-size: var(--display-font-size);
+  width: 20em;
+  max-height: 20em;
+  overflow-y: scroll;
+}
+
+.suggestionsList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.suggestion {
+  border-bottom: 1px #aaa solid;
+}
+
+.suggestionHighlighted {
+  background-color: #aaa;
+}
+
+.suggestionsList a:link,
+.suggestionsList a:visited {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 0.3em;
+}
+
+.container {
+  flex: 1;
+}
