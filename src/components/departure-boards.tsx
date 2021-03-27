@@ -5,6 +5,8 @@ import {
   tableWrapper,
   main,
   noServices,
+  timeStyle,
+  tdR,
 } from "./departure-boards.module.css";
 interface Station {
   name: string;
@@ -39,9 +41,11 @@ type Service = Arrival | Departure;
 
 interface Props {
   crs: string;
+  time?: string;
 }
 export const DepartureBoards: React.FC<Props> = function DepartureBoards({
   crs,
+  time,
 }) {
   const [departures, setDepartures] = React.useState<Array<Departure>>([]);
   const [arrivals, setArrivals] = React.useState<Array<Arrival>>([]);
@@ -78,8 +82,8 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             <tr>
               <th>Time</th>
               <th>Destination</th>
-              <th>Plat</th>
-              <th>Expected</th>
+              <th className={tdR}>Plat</th>
+              <th className={tdR}>Expected</th>
             </tr>
           </thead>
           <tbody>
@@ -88,8 +92,8 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
                 <tr>
                   <td>{service.std}</td>
                   <td>{service.destination[0].name}</td>
-                  <td>{service.platform}</td>
-                  <td>{service.etd}</td>
+                  <td className={tdR}>{service.platform}</td>
+                  <td className={tdR}>{service.etd}</td>
                 </tr>
               ))
             ) : (
@@ -101,6 +105,12 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             )}
           </tbody>
         </table>
+        {time && (
+          <div className={timeStyle}>
+            <span>{time}</span>
+          </div>
+        )}
+
         <h2>Departures</h2>
       </div>
       <div className={tableWrapper}>
@@ -109,8 +119,8 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             <tr>
               <th>Time</th>
               <th>Origin</th>
-              <th>Plat</th>
-              <th>Expected</th>
+              <th className={tdR}>Plat</th>
+              <th className={tdR}>Expected</th>
             </tr>
           </thead>
           <tbody>
@@ -119,8 +129,8 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
                 <tr>
                   <td>{service.sta}</td>
                   <td>{service.origin[0].name}</td>
-                  <td>{service.platform}</td>
-                  <td>{service.eta}</td>
+                  <td className={tdR}>{service.platform}</td>
+                  <td className={tdR}>{service.eta}</td>
                 </tr>
               ))
             ) : (
@@ -132,6 +142,11 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             )}
           </tbody>
         </table>
+        {time && (
+          <div className={timeStyle}>
+            <div>{time}</div>
+          </div>
+        )}
         <h2>Arrivals</h2>
       </div>
     </div>
