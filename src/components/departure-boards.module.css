@@ -12,6 +12,7 @@
 
 .mainTable {
   width: 100%;
+  border-collapse: collapse;
 }
 
 .mainTable tbody {
@@ -32,7 +33,7 @@
 .mainTable th {
   font-family: "British Rail";
   color: white;
-  padding: 0.2em 0.5em 0 0.5em;
+  padding: 0.5em 0.5em 0 0.5em;
   font-size: var(--body-font-size);
   font-weight: normal;
 }
