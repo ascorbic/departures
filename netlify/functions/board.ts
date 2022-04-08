@@ -1,14 +1,10 @@
-import { APIGatewayProxyHandler } from "aws-lambda";
 import Darwin from "national-rail-darwin-promises";
+import { Handler } from "@netlify/functions";
 
-export const handler: APIGatewayProxyHandler = async function handler(
-  event,
-  context
-) {
-  console.log(event);
+const client = new Darwin();
+
+export const handler: Handler = async function handler(event, context) {
   const station = event.queryStringParameters?.station ?? "WSB";
-
-  const client = new Darwin();
 
   try {
     const result = await client.getArrivalsDepartureBoard(station, {});

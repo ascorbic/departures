@@ -6,3 +6,4 @@ netlify/functions/**/*.js
 
 # Local Netlify folder
 .netlify
+.DS_Store

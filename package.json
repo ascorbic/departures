@@ -8,13 +8,9 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "npm-run-all -p develop:*",
-    "develop:functions": "yarn build:functions --watch",
-    "develop:gatsby": "gatsby develop -H 0.0.0.0",
+    "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop",
-    "build": "npm-run-all -p build:*",
-    "build:gatsby": "gatsby build",
-    "build:functions": "tsc -p netlify/",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -28,12 +24,12 @@
     "react": "^17.0.1",
     "react-autosuggest": "^10.1.0",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "slugify": "^1.6.5"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.73",
+    "@netlify/functions": "^1.0.0",
     "@types/react-helmet": "^6.1.0",
-    "npm-run-all": "^4.1.5",
     "typescript": "^4.2.3"
   }
 }

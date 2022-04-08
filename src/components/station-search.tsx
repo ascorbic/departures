@@ -10,7 +10,6 @@ async function getSuggestions(value: string) {
     return [];
   }
   const { stations } = await import("../../data/stations.json");
-  console.log({ stations });
   const val = value.toUpperCase();
   return stations.filter((station) => {
     if (value.length === 3 && val === station.crs) {

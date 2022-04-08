@@ -1,4 +1,6 @@
+import { Link } from "gatsby";
 import * as React from "react";
+import slugify from "slugify";
 import { useCurrentTime } from "../utils/hooks";
 
 import {
@@ -27,6 +29,7 @@ interface ServiceBase {
   rsid: string;
   origin: Array<Station>;
   destination: Array<Station>;
+  delayReason?: string;
 }
 
 interface Departure extends ServiceBase {
@@ -69,7 +72,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
       const arrs: Array<Arrival> = services.filter(
         (service): service is Arrival => !!service.sta
       );
-
+      console.log(arrs);
       setDepartures(deps);
       setArrivals(arrs);
     }
@@ -91,9 +94,17 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
           <tbody>
             {departures?.length ? (
               departures.map((service) => (
-                <tr>
+                <tr title={service.delayReason}>
                   <td>{service.std}</td>
-                  <td>{service.destination[0].name}</td>
+                  <td>
+                    <Link
+                      to={`/${slugify(service.destination[0].name, {
+                        lower: true,
+                      })}/`}
+                    >
+                      {service.destination[0].name}
+                    </Link>
+                  </td>
                   <td className={tdR}>{service.platform}</td>
                   <td className={tdR}>{service.etd}</td>
                 </tr>
@@ -128,9 +139,18 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
           <tbody>
             {arrivals?.length ? (
               arrivals.map((service) => (
-                <tr>
+                <tr title={service.delayReason}>
                   <td>{service.sta}</td>
-                  <td>{service.origin[0].name}</td>
+                  <td>
+                    {" "}
+                    <Link
+                      to={`/${slugify(service.origin[0].name, {
+                        lower: true,
+                      })}/`}
+                    >
+                      {service.origin[0].name}
+                    </Link>
+                  </td>
                   <td className={tdR}>{service.platform}</td>
                   <td className={tdR}>{service.eta}</td>
                 </tr>
