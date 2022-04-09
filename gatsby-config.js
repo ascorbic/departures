@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Departures",
-    siteUrl: "https://departureboard.netlify.app/",
+    siteUrl: "https://departures.live/",
   },
   plugins: [
     {
@@ -14,5 +14,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-csv`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-netlify`,
   ],
 };

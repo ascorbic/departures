@@ -14,10 +14,18 @@ export default function StationPage({ data }) {
 }
 
 export const query = graphql`
-  query($id: String) {
+  query ($id: String) {
     station: stationsCsv(id: { eq: $id }) {
       name
       crs
     }
   }
 `;
+
+export async function config() {
+  return () => {
+    return {
+      defer: true,
+    };
+  };
+}
