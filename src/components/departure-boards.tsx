@@ -62,7 +62,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
         setError(data.message);
         return;
       }
-      const services: Array<Service> = data?.message?.trainServices;
+      const services: Array<Service> = data;
       if (!services) {
         return;
       }
@@ -73,7 +73,6 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
       const arrs: Array<Arrival> = services.filter(
         (service): service is Arrival => !!service.sta
       );
-      console.log(arrs);
       setDepartures(deps);
       setArrivals(arrs);
       setError(undefined);

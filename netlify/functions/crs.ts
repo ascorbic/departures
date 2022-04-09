@@ -16,18 +16,10 @@ function getHandler(): Handler {
     const crs = event.queryStringParameters?.code?.toLowerCase();
     console.log(`Looking up ${crs}`);
     const station = stationList.get(crs);
-    if (station) {
-      return {
-        statusCode: 302,
-        headers: {
-          Location: station.url,
-        },
-      };
-    }
     return {
       statusCode: 302,
       headers: {
-        Location: "/404/",
+        Location: station?.url || "/404/",
       },
     };
   };

@@ -22,7 +22,7 @@ const handlerFn: Handler = async (event) => {
         delayReason,
       })
     );
-    const body = JSON.stringify({ message: { trainServices } });
+    const body = JSON.stringify(trainServices);
     const etagHeader = etag(body);
     if (etagHeader && event.headers["if-none-match"] === etagHeader) {
       return {
