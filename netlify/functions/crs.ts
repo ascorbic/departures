@@ -12,9 +12,8 @@ function getHandler(): Handler {
   stations.forEach((station: Station) => {
     stationList.set(station.crs.toLowerCase(), station);
   });
-  return async (event, context) => {
-    const { pathname } = new URL(event.rawUrl);
-    const crs = pathname.split("/").filter(Boolean).pop()?.toLowerCase() ?? "";
+  return async (event) => {
+    const crs = event.queryStringParameters?.code?.toLowerCase();
     console.log(`Looking up ${crs}`);
     const station = stationList.get(crs);
     if (station) {
