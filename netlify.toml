@@ -10,3 +10,9 @@ from = "https://departureboard.netlify.app/*"
 to = "https://departures.live/:splat"
 status = 301
 force = true
+
+[[redirects]]
+from = "https://departureboard.netlify.app/"
+to = "https://departures.live/"
+status = 301
+force = true
