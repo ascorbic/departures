@@ -1,6 +1,5 @@
 import { Link } from "gatsby";
 import * as React from "react";
-import slugify from "slugify";
 import { useCurrentTime } from "../utils/hooks";
 
 import {
@@ -52,15 +51,17 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
 }) {
   const [departures, setDepartures] = React.useState<Array<Departure>>();
   const [arrivals, setArrivals] = React.useState<Array<Arrival>>();
-
+  const [error, setError] = React.useState<string>();
   const { timeString, minutes } = useCurrentTime();
 
   React.useEffect(() => {
     async function getData() {
-      const data = await fetch(
-        `/.netlify/functions/board?station=${crs}`
-      ).then((res) => res.json());
-
+      const res = await fetch(`/.netlify/functions/board?station=${crs}`);
+      const data = await res.json();
+      if (res.status >= 400) {
+        setError(data.message);
+        return;
+      }
       const services: Array<Service> = data?.message?.trainServices;
       if (!services) {
         return;
@@ -75,6 +76,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
       console.log(arrs);
       setDepartures(deps);
       setArrivals(arrs);
+      setError(undefined);
     }
     getData();
   }, [crs, minutes]);
@@ -97,13 +99,9 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
                 <tr title={service.delayReason}>
                   <td>{service.std}</td>
                   <td>
-                    <Link
-                      to={`/${slugify(service.destination[0].name, {
-                        lower: true,
-                      })}/`}
-                    >
+                    <a href={`/crs/${service.destination[0].crs}/`}>
                       {service.destination[0].name}
-                    </Link>
+                    </a>
                   </td>
                   <td className={tdR}>{service.platform}</td>
                   <td className={tdR}>{service.etd}</td>
@@ -112,7 +110,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             ) : (
               <tr>
                 <td className={noServices} colSpan={4}>
-                  {departures ? "No services" : <Spinner />}
+                  {departures ? "No services" : <Spinner error={error} />}
                 </td>
               </tr>
             )}
@@ -142,14 +140,9 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
                 <tr title={service.delayReason}>
                   <td>{service.sta}</td>
                   <td>
-                    {" "}
-                    <Link
-                      to={`/${slugify(service.origin[0].name, {
-                        lower: true,
-                      })}/`}
-                    >
+                    <a href={`/crs/${service.origin[0].crs}/`}>
                       {service.origin[0].name}
-                    </Link>
+                    </a>
                   </td>
                   <td className={tdR}>{service.platform}</td>
                   <td className={tdR}>{service.eta}</td>
@@ -158,7 +151,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
             ) : (
               <tr>
                 <td className={noServices} colSpan={4}>
-                  {arrivals ? "No services" : <Spinner />}
+                  {arrivals ? "No services" : <Spinner error={error} />}
                 </td>
               </tr>
             )}

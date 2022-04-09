@@ -12,12 +12,13 @@ export const handler: Handler = async function handler(event, context) {
       statusCode: 200,
       body: JSON.stringify({ message: result }),
     };
-  } catch (e) {
-    console.log(e);
+  } catch (error: any) {
+    console.log("Error", error?.response);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({
+        message: error?.response?.statusText ?? "Error",
+      }),
+    };
   }
-
-  return {
-    statusCode: 500,
-    body: JSON.stringify({ message: "Error" }),
-  };
 };
