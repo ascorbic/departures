@@ -9,6 +9,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Minecart LCD Regular"), url("./minecart-lcd.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
   src: url("./britrail.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {

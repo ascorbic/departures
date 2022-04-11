@@ -6,10 +6,12 @@ import ogimage from "../images/departure.webp";
 import { graphql, useStaticQuery } from "gatsby";
 interface Props {
   title?: string;
+  crs?: string;
 }
 export const Layout: React.FC<Props> = function Layout({
   title = "Station Arrival and Departure Boards",
   children,
+  crs,
 }) {
   const { site } = useStaticQuery(graphql`
     query {
@@ -24,6 +26,12 @@ export const Layout: React.FC<Props> = function Layout({
   return (
     <div className={layout}>
       <Helmet title={title} htmlAttributes={{ lang: "en" }}>
+        <link
+          rel="preload"
+          href={`/.netlify/functions/board?station=${crs || "WSB"}`}
+          as="fetch"
+          crossOrigin="anonymous"
+        />
         <meta property="twitter:title" content={title} />
         <meta property="og:title" content={title} />
         <meta
