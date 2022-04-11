@@ -68,10 +68,12 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
       }
       console.log({ services });
       const deps: Array<Departure> = services.filter(
-        (service): service is Departure => !!service.std
+        (service): service is Departure =>
+          !!service.std && service.destination?.[0].crs !== crs
       );
       const arrs: Array<Arrival> = services.filter(
-        (service): service is Arrival => !!service.sta
+        (service): service is Arrival =>
+          !!service.sta && service.origin?.[0].crs !== crs
       );
       setDepartures(deps);
       setArrivals(arrs);
