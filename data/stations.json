@@ -491,11 +491,6 @@
       "url": "/ashford-international/"
     },
     {
-      "crs": "ASI",
-      "name": "Ashford International (Eurostar)",
-      "url": "/ashford-international-eurostar/"
-    },
-    {
       "crs": "ASY",
       "name": "Ashley",
       "url": "/ashley/"
