@@ -25,8 +25,8 @@
   --display-font-size: 24px;
   --title-font-size: 64px;
   --rail-red: #f24815;
-  --table-font: "Minecart LCD Regular";
-  --primary-font: "British Rail";
+  --table-font: "Minecart LCD Regular", Helvetica, Arial, sans-serif;
+  --primary-font: "British Rail", Helvetica, Arial, sans-serif;
 }
 
 body {
