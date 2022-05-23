@@ -7286,11 +7286,6 @@
       "url": "/london-road-guildford/"
     },
     {
-      "crs": "SPX",
-      "name": "London St Pancras (Intl)",
-      "url": "/london-st-pancras-intl/"
-    },
-    {
       "crs": "STP",
       "name": "London St Pancras International",
       "url": "/london-st-pancras-international/"
