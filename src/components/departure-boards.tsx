@@ -56,7 +56,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
 
   React.useEffect(() => {
     async function getData() {
-      const res = await fetch(`/.netlify/functions/board?station=${crs}`);
+      const res = await fetch(`/board/{crs}`);
       const data = await res.json();
       if (res.status >= 400) {
         setError(data.message);

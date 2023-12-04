@@ -28,7 +28,7 @@ export const Layout: React.FC<Props> = function Layout({
       <Helmet title={title} htmlAttributes={{ lang: "en" }}>
         <link
           rel="preload"
-          href={`/.netlify/functions/board?station=${crs || "WSB"}`}
+          href={`/board/${crs || "WSB"}`}
           as="fetch"
           crossOrigin="anonymous"
         />
