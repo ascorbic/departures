@@ -1,4 +1,4 @@
-import { Config } from "@netlify/functions";
+import { Config, Context } from "@netlify/functions";
 import { stations } from "../../data/stations.json";
 
 interface Station {
@@ -12,10 +12,10 @@ stations.forEach((station: Station) => {
   stationList.set(station.crs.toLowerCase(), station);
 });
 
-export default function handler(request: Request) {
+export default function handler(request: Request, context: Context) {
   const url = new URL(request.url);
 
-  const crs = url.searchParams.get("crs")?.toLowerCase() ?? "wsb";
+  const crs = context.params?.crs?.toLowerCase() ?? "wsb";
   console.log(`Looking up ${crs}`);
   const station = stationList.get(crs);
   return Response.redirect(new URL(station?.url ?? "/404", url));
@@ -23,5 +23,5 @@ export default function handler(request: Request) {
 
 export const config: Config = {
   method: "GET",
-  path: "/station",
+  path: "/station/:crs",
 };

@@ -100,7 +100,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
                 <tr title={service.delayReason}>
                   <td>{service.std}</td>
                   <td>
-                    <a href={`/station?code=${service.destination[0].crs}`}>
+                    <a href={`/station/${service.destination[0].crs}`}>
                       {service.destination[0].name}
                     </a>
                   </td>
@@ -141,7 +141,7 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
                 <tr title={service.delayReason}>
                   <td>{service.sta}</td>
                   <td>
-                    <a href={`/station?code=${service.origin[0].crs}`}>
+                    <a href={`/station/{service.origin[0].crs}`}>
                       {service.origin[0].name}
                     </a>
                   </td>
