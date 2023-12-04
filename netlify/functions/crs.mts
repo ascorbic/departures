@@ -23,5 +23,5 @@ export default function handler(request: Request) {
 
 export const config = {
   method: "GET",
-  path: "/crs",
+  path: "/station",
 };
