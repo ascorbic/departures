@@ -6,7 +6,7 @@ export default async function handler(_request: Request, context: Context) {
   const station = context.params.crs || "WSB";
   console.log("station", station);
   try {
-    const result = await client.getDepartureBoardWithDetails(station, {});
+    const result = await client.getDepartureBoard(station, {});
 
     return Response.json(result);
   } catch (error: any) {
