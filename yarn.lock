@@ -1593,6 +1593,11 @@
     "@lezer/lr" "^1.0.0"
     json5 "^2.2.1"
 
+"@netlify/edge-functions@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-functions/-/edge-functions-2.2.0.tgz#5f7f5c7602a7f98888a4b4421576ca609dad2083"
+  integrity sha512-8UeKA2nUDB0oWE+Z0gLpA7wpLq8nM+NrZEQMfSdzfMJNvmYVabil/mS07rb0EBrUxM9PCKidKenaiCRnPTBSKw==
+
 "@netlify/functions@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-2.4.0.tgz#14cc222c44881e7fb3769a458e72a9f1216aff21"

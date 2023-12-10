@@ -1,15 +1,23 @@
-import Darwin from "national-rail-darwin-promises";
-import { Config, Context } from "@netlify/functions";
+import { Config, Context } from "@netlify/edge-functions";
+import { getDarwinClient } from "../get-darwin.mts";
 
-const client = new Darwin();
-
-export default async function handler(request: Request, context: Context) {
+export default async function handler(_request: Request, context: Context) {
+  const client = await getDarwinClient();
   const station = context.params?.station || "WSB";
 
   try {
     const result = await client.getArrivalsDepartureBoard(station, {});
     const trainServices = result.trainServices.map(
-      ({ eta, etd, sta, std, origin, destination, platform, delayReason }) => ({
+      ({
+        eta,
+        etd,
+        sta,
+        std,
+        origin,
+        destination,
+        platform,
+        delayReason,
+      }: Record<string, any>) => ({
         eta,
         etd,
         sta,

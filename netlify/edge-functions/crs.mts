@@ -1,5 +1,5 @@
-import { Config, Context } from "@netlify/functions";
-import { stations } from "../../data/stations.json";
+import { Config, Context } from "@netlify/edge-functions";
+import stationJson from "../../data/stations.json" assert { type: "json" };
 
 interface Station {
   name: string;
@@ -8,7 +8,7 @@ interface Station {
 }
 
 const stationList = new Map<string, Station>();
-stations.forEach((station: Station) => {
+stationJson.stations.forEach((station: Station) => {
   stationList.set(station.crs.toLowerCase(), station);
 });
 

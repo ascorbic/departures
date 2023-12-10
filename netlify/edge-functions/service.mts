@@ -1,9 +1,8 @@
-import Darwin from "national-rail-darwin-promises";
-import type { Config, Context } from "@netlify/functions";
-
-const client = new Darwin();
+import type { Config, Context } from "@netlify/edge-functions";
+import { getDarwinClient } from "../get-darwin.mts";
 
 export default async function handler(request: Request, context: Context) {
+  const client = await getDarwinClient();
   const service = context.params.id;
   if (!service) {
     return new Response("No service specified", {

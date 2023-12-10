@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@netlify/edge-functions": "^2.2.0",
     "etag": "^1.8.1",
     "gatsby": "^5.12.11",
     "gatsby-plugin-react-helmet": "^6.12.0",
