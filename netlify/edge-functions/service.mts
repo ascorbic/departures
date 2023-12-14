@@ -11,9 +11,9 @@ export default async function handler(request: Request, context: Context) {
   }
   console.log("service", service);
   try {
-    const result = await client.getServiceDetails(service);
+    const { serviceDetails } = await client.getServiceDetails(service);
 
-    return Response.json(result);
+    return Response.json(serviceDetails);
   } catch (error: any) {
     console.log("Error", error);
     return new Response(error?.response?.statusText ?? "Error", {
