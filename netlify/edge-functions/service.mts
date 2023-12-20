@@ -15,7 +15,11 @@ export default async function handler(request: Request, context: Context) {
 
     return Response.json(serviceDetails);
   } catch (error: any) {
-    console.log("Error", error);
+    if (error?.response?.data?.includes("Invalid Service ID")) {
+      return new Response("Invalid Service ID", {
+        status: 400,
+      });
+    }
     return new Response(error?.response?.statusText ?? "Error", {
       status: 500,
     });
