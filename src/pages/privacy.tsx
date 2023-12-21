@@ -63,12 +63,7 @@ const IndexPage = () => {
           please feel free to contact us using the form.
         </p>
 
-        <form
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          className={styles.form}
-        >
+        <form name="contact" method="POST" data-netlify className={styles.form}>
           <p>
             <label>
               <span>Your Name:</span>
