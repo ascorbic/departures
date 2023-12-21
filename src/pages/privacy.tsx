@@ -63,11 +63,23 @@ const IndexPage = () => {
           please feel free to contact us using the form.
         </p>
 
-        <form name="contact" method="POST" data-netlify className={styles.form}>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify
+          className={styles.form}
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
               <span>Your Name:</span>
               <input type="text" name="name" />
+            </label>
+          </p>
+          <p style={{ display: "none" }}>
+            <label>
+              Don’t fill this out if you’re human: <input name="bot-field" />
             </label>
           </p>
           <p>
