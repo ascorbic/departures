@@ -54,6 +54,7 @@ export const Layout: React.FC<Props> = function Layout({
         <a href="https://twitter.com/ascorbic">
           <span>@</span>ascorbic
         </a>
+        . Powered by National Rail Enquiries
       </footer>
     </div>
   );
