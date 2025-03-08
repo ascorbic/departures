@@ -7,30 +7,31 @@ export default async function handler(_request: Request, context: Context) {
 
   try {
     const result = await client.getArrivalsDepartureBoard(station, {});
-    const trainServices = result.trainServices.map(
-      ({
-        eta,
-        etd,
-        sta,
-        std,
-        origin,
-        destination,
-        platform,
-        delayReason,
-      }: Record<string, any>) => ({
-        eta,
-        etd,
-        sta,
-        std,
-        origin,
-        destination,
-        platform,
-        delayReason,
-      })
-    );
+    const trainServices =
+      result?.trainServices?.map(
+        ({
+          eta,
+          etd,
+          sta,
+          std,
+          origin,
+          destination,
+          platform,
+          delayReason,
+        }: Record<string, any>) => ({
+          eta,
+          etd,
+          sta,
+          std,
+          origin,
+          destination,
+          platform,
+          delayReason,
+        })
+      ) ?? [];
     return Response.json(trainServices);
   } catch (error: any) {
-    console.log("Error", error?.response);
+    console.log("Error!", error);
     return new Response(error?.response?.statusText ?? "Error", {
       status: 500,
     });
