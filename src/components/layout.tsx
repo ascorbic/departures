@@ -50,11 +50,8 @@ export const Layout: React.FC<Props> = function Layout({
       <h1 className={visuallyHidden}>{title}</h1>
       {children}
       <footer className={footer}>
-        Made with = by{" "}
-        <a href="https://twitter.com/ascorbic">
-          <span>@</span>ascorbic
-        </a>
-        . Powered by National Rail Enquiries
+        Made with = by <a href="https://mk.gg">Matt Kane</a>. Powered by
+        National Rail Enquiries
       </footer>
     </div>
   );
