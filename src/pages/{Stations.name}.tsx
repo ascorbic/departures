@@ -3,7 +3,6 @@ import { graphql } from "gatsby";
 import { DepartureBoards } from "../components/departure-boards";
 import { Layout } from "../components/layout";
 import { StationSearch } from "../components/station-search";
-import slugify from "slugify";
 export default function StationPage({ data }) {
   return (
     <Layout title={`${data.station.name} Live Departures and Arrivals`}>
@@ -26,7 +25,6 @@ export const query = graphql`
       nodes {
         name
         crs
-        url: gatsbyPath(filePath: "/{Stations.name}")
       }
     }
   }

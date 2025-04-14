@@ -58,7 +58,11 @@ export const StationSearch: React.FC<Props> = function StationSearch({
         getSuggestionValue={getName}
         onSuggestionSelected={onSuggestionSelected}
         renderSuggestion={(station) => (
-          <Link to={station.url}>{station.name}</Link>
+          <Link
+            to={station.url ?? `/${slugify(station.name, { lower: true })}/`}
+          >
+            {station.name}
+          </Link>
         )}
         inputProps={{
           value: station,

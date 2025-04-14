@@ -16,6 +16,3 @@ from = "https://departureboard.netlify.app/"
 to = "https://departures.live/"
 status = 301
 force = true
-
-[functions."ssr-engine-odb"]
-included_files = ["src/pages/{Stations.name}.tsx"]
