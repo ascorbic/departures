@@ -3,11 +3,14 @@ import { graphql } from "gatsby";
 import { DepartureBoards } from "../components/departure-boards";
 import { Layout } from "../components/layout";
 import { StationSearch } from "../components/station-search";
-
+import slugify from "slugify";
 export default function StationPage({ data }) {
   return (
     <Layout title={`${data.station.name} Live Departures and Arrivals`}>
-      <StationSearch initial={data.station.name} />
+      <StationSearch
+        initial={data.station.name}
+        allStations={data.allStations.nodes}
+      />
       <DepartureBoards crs={data.station.crs} />
     </Layout>
   );
@@ -15,9 +18,16 @@ export default function StationPage({ data }) {
 
 export const query = graphql`
   query ($id: String) {
-    station: stationsCsv(id: { eq: $id }) {
+    station: stations(id: { eq: $id }) {
       name
       crs
+    }
+    allStations {
+      nodes {
+        name
+        crs
+        url: gatsbyPath(filePath: "/{Stations.name}")
+      }
     }
   }
 `;

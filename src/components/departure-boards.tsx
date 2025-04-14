@@ -97,7 +97,10 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
           <tbody>
             {departures?.length ? (
               departures.map((service) => (
-                <tr title={service.delayReason}>
+                <tr
+                  title={service.delayReason}
+                  key={`${service.destination[0].crs}@${service.std}`}
+                >
                   <td>{service.std}</td>
                   <td>
                     <a href={`/station/${service.destination[0].crs}`}>
@@ -138,7 +141,10 @@ export const DepartureBoards: React.FC<Props> = function DepartureBoards({
           <tbody>
             {arrivals?.length ? (
               arrivals.map((service) => (
-                <tr title={service.delayReason}>
+                <tr
+                  title={service.delayReason}
+                  key={`${service.origin[0].crs}@${service.sta}`}
+                >
                   <td>{service.sta}</td>
                   <td>
                     <a href={`/station/${service.origin[0].crs}`}>

@@ -4,12 +4,15 @@ import { wrapper, homeLink } from "./station-search.module.css";
 
 import * as autocompleteTheme from "./autocomplete.module.css";
 import Autosuggest from "react-autosuggest";
+import slugify from "slugify";
 
-async function getSuggestions(value: string) {
+async function getSuggestions(
+  value: string,
+  stations: Array<{ crs: string; name: string }>
+) {
   if (value.length < 2) {
     return [];
   }
-  const { stations } = await import("../../data/stations.json");
   const val = value.toUpperCase();
   return stations.filter((station) => {
     if (value.length === 3 && val === station.crs) {
@@ -27,16 +30,21 @@ function onSuggestionSelected(e, { suggestion }) {
 
 interface Props {
   initial?: string;
+  allStations?: {
+    name: string;
+    crs: string;
+    url: string;
+  }[];
 }
 
 export const StationSearch: React.FC<Props> = function StationSearch({
   initial = "",
+  allStations = [],
 }) {
   const [suggestions, setSuggestions] = React.useState([]);
   const [station, setStation] = React.useState(initial);
-
   function onSuggestionsFetchRequested({ value }) {
-    getSuggestions(value).then(setSuggestions);
+    getSuggestions(value, allStations).then(setSuggestions);
   }
 
   return (
