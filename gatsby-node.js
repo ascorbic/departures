@@ -1,6 +1,4 @@
-// load dotenv variables
 require("dotenv").config();
-console.log("RAILDATA_API_KEY", process.env.RAILDATA_API_KEY);
 
 exports.sourceNodes = async ({
   actions,

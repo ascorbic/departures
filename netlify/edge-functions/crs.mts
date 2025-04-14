@@ -1,5 +1,5 @@
 import { Config, Context } from "@netlify/edge-functions";
-import stationJson from "../../data/stations.json" assert { type: "json" };
+import stationJson from "../../data/stations.json" with { type: "json" };
 
 interface Station {
   name: string;
