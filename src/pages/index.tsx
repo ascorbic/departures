@@ -1,14 +1,11 @@
 import * as React from "react";
 import { Layout } from "../components/layout";
-import { useCurrentTime } from "../utils/hooks";
 import { graphql } from "gatsby";
 
 import { StationSearch } from "../components/station-search";
 import { DepartureBoards } from "../components/departure-boards";
-import slugify from "slugify";
 
 const IndexPage = ({ data }) => {
-  console.log(data);
   return (
     <Layout>
       <StationSearch allStations={data.allStations.nodes} />
@@ -23,8 +20,8 @@ export const query = graphql`
   query {
     allStations {
       nodes {
-        name
         crs
+        name
         url: gatsbyPath(filePath: "/{Stations.name}")
       }
     }

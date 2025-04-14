@@ -27,21 +27,21 @@ const getName = (suggestion) => suggestion.name;
 function onSuggestionSelected(e, { suggestion }) {
   navigate(suggestion.url);
 }
-
+interface Station {
+  name: string;
+  crs: string;
+  url?: string;
+}
 interface Props {
   initial?: string;
-  allStations?: {
-    name: string;
-    crs: string;
-    url: string;
-  }[];
+  allStations?: Array<Station>;
 }
 
 export const StationSearch: React.FC<Props> = function StationSearch({
   initial = "",
   allStations = [],
 }) {
-  const [suggestions, setSuggestions] = React.useState([]);
+  const [suggestions, setSuggestions] = React.useState<Array<Station>>([]);
   const [station, setStation] = React.useState(initial);
   function onSuggestionsFetchRequested({ value }) {
     getSuggestions(value, allStations).then(setSuggestions);
@@ -59,7 +59,10 @@ export const StationSearch: React.FC<Props> = function StationSearch({
         onSuggestionSelected={onSuggestionSelected}
         renderSuggestion={(station) => (
           <Link
-            to={station.url ?? `/${slugify(station.name, { lower: true })}/`}
+            to={
+              station.url ??
+              `/${slugify(station.name, { lower: true, strict: true })}/`
+            }
           >
             {station.name}
           </Link>

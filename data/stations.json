@@ -56,6 +56,11 @@
       "url": "/aberystwyth/"
     },
     {
+      "crs": "XAE",
+      "name": "Abingdon (Bus)",
+      "url": "/abingdon-bus/"
+    },
+    {
       "crs": "ACR",
       "name": "Accrington",
       "url": "/accrington/"
@@ -92,8 +97,8 @@
     },
     {
       "crs": "ACB",
-      "name": "Acton Bridge (Cheshire)",
-      "url": "/acton-bridge-cheshire/"
+      "name": "Acton Bridge",
+      "url": "/acton-bridge/"
     },
     {
       "crs": "ACC",
@@ -132,8 +137,8 @@
     },
     {
       "crs": "ADL",
-      "name": "Adlington (Lancs)",
-      "url": "/adlington-lancs/"
+      "name": "Adlington (Lancashire)",
+      "url": "/adlington-lancashire/"
     },
     {
       "crs": "AWK",
@@ -237,8 +242,8 @@
     },
     {
       "crs": "ALR",
-      "name": "Alresford (Essex)",
-      "url": "/alresford-essex/"
+      "name": "Alresford",
+      "url": "/alresford/"
     },
     {
       "crs": "ASG",
@@ -247,8 +252,8 @@
     },
     {
       "crs": "ALN",
-      "name": "Althorne (Essex)",
-      "url": "/althorne-essex/"
+      "name": "Althorne",
+      "url": "/althorne/"
     },
     {
       "crs": "ALP",
@@ -264,6 +269,11 @@
       "crs": "AON",
       "name": "Alton",
       "url": "/alton/"
+    },
+    {
+      "crs": "ATW",
+      "name": "Alton Towers (Bus)",
+      "url": "/alton-towers-bus/"
     },
     {
       "crs": "ALT",
@@ -294,6 +304,16 @@
       "crs": "AMF",
       "name": "Ammanford",
       "url": "/ammanford/"
+    },
+    {
+      "crs": "AMD",
+      "name": "Ampfield School (Bus)",
+      "url": "/ampfield-school-bus/"
+    },
+    {
+      "crs": "AMS",
+      "name": "Amsterdam CS",
+      "url": "/amsterdam-cs/"
     },
     {
       "crs": "ANC",
@@ -417,8 +437,13 @@
     },
     {
       "crs": "ARM",
-      "name": "Armadale (West Lothian)",
-      "url": "/armadale-west-lothian/"
+      "name": "Armadale",
+      "url": "/armadale/"
+    },
+    {
+      "crs": "ARA",
+      "name": "Armadale (Bus)",
+      "url": "/armadale-bus/"
     },
     {
       "crs": "AWT",
@@ -447,8 +472,8 @@
     },
     {
       "crs": "ACT",
-      "name": "Ascot (Berks)",
-      "url": "/ascot-berks/"
+      "name": "Ascot",
+      "url": "/ascot/"
     },
     {
       "crs": "AUW",
@@ -491,9 +516,19 @@
       "url": "/ashford-international/"
     },
     {
+      "crs": "ASL",
+      "name": "Ashington",
+      "url": "/ashington/"
+    },
+    {
       "crs": "ASY",
       "name": "Ashley",
       "url": "/ashley/"
+    },
+    {
+      "crs": "ASD",
+      "name": "Ashley Down",
+      "url": "/ashley-down/"
     },
     {
       "crs": "AHD",
@@ -507,8 +542,8 @@
     },
     {
       "crs": "AHS",
-      "name": "Ashurst (Kent)",
-      "url": "/ashurst-kent/"
+      "name": "Ashurst",
+      "url": "/ashurst/"
     },
     {
       "crs": "ANF",
@@ -566,6 +601,11 @@
       "url": "/attenborough/"
     },
     {
+      "crs": "ATE",
+      "name": "Attercliffe (Tram)",
+      "url": "/attercliffe-tram/"
+    },
+    {
       "crs": "ATL",
       "name": "Attleborough",
       "url": "/attleborough/"
@@ -586,9 +626,19 @@
       "url": "/aughton-park/"
     },
     {
+      "crs": "XAF",
+      "name": "Avebury (Bus)",
+      "url": "/avebury-bus/"
+    },
+    {
       "crs": "AVM",
       "name": "Aviemore",
       "url": "/aviemore/"
+    },
+    {
+      "crs": "AVI",
+      "name": "Avignon",
+      "url": "/avignon/"
     },
     {
       "crs": "AVF",
@@ -654,6 +704,16 @@
       "crs": "BIO",
       "name": "Baillieston",
       "url": "/baillieston/"
+    },
+    {
+      "crs": "ZBS",
+      "name": "Baker Street Underground",
+      "url": "/baker-street-underground/"
+    },
+    {
+      "crs": "BKZ",
+      "name": "Bakewell (Bus)",
+      "url": "/bakewell-bus/"
     },
     {
       "crs": "BAB",
@@ -722,8 +782,8 @@
     },
     {
       "crs": "ZBB",
-      "name": "Barbican",
-      "url": "/barbican/"
+      "name": "Barbican Underground",
+      "url": "/barbican-underground/"
     },
     {
       "crs": "BLL",
@@ -751,9 +811,24 @@
       "url": "/barking/"
     },
     {
+      "crs": "BGV",
+      "name": "Barking Riverside",
+      "url": "/barking-riverside/"
+    },
+    {
+      "crs": "ZBK",
+      "name": "Barking Underground",
+      "url": "/barking-underground/"
+    },
+    {
       "crs": "BRT",
       "name": "Barlaston",
       "url": "/barlaston/"
+    },
+    {
+      "crs": "BPL",
+      "name": "Barlaston Orchard Place (Bus)",
+      "url": "/barlaston-orchard-place-bus/"
     },
     {
       "crs": "BMG",
@@ -801,6 +876,11 @@
       "url": "/barnsley/"
     },
     {
+      "crs": "BNX",
+      "name": "Barnsley (Bus)",
+      "url": "/barnsley-bus/"
+    },
+    {
       "crs": "BNP",
       "name": "Barnstaple",
       "url": "/barnstaple/"
@@ -809,6 +889,11 @@
       "crs": "BTG",
       "name": "Barnt Green",
       "url": "/barnt-green/"
+    },
+    {
+      "crs": "ZBC",
+      "name": "Barons Court Underground",
+      "url": "/barons-court-underground/"
     },
     {
       "crs": "BRR",
@@ -832,7 +917,7 @@
     },
     {
       "crs": "BWS",
-      "name": "Barrow-Upon-Soar",
+      "name": "Barrow-upon-Soar",
       "url": "/barrow-upon-soar/"
     },
     {
@@ -874,6 +959,11 @@
       "crs": "BBL",
       "name": "Bat & Ball",
       "url": "/bat-and-ball/"
+    },
+    {
+      "crs": "XDO",
+      "name": "Bath Bus Station",
+      "url": "/bath-bus-station/"
     },
     {
       "crs": "BTH",
@@ -976,6 +1066,11 @@
       "url": "/bedford/"
     },
     {
+      "crs": "XDW",
+      "name": "Bedford (Bus)",
+      "url": "/bedford-bus/"
+    },
+    {
       "crs": "BSJ",
       "name": "Bedford St Johns",
       "url": "/bedford-st-johns/"
@@ -984,6 +1079,11 @@
       "crs": "BDH",
       "name": "Bedhampton",
       "url": "/bedhampton/"
+    },
+    {
+      "crs": "BEJ",
+      "name": "Bedlington",
+      "url": "/bedlington/"
     },
     {
       "crs": "BMT",
@@ -1009,6 +1109,16 @@
       "crs": "BKS",
       "name": "Bekesbourne",
       "url": "/bekesbourne/"
+    },
+    {
+      "crs": "BFQ",
+      "name": "Belfast Donegall Quay (Bus)",
+      "url": "/belfast-donegall-quay-bus/"
+    },
+    {
+      "crs": "BFA",
+      "name": "Belfast Port",
+      "url": "/belfast-port/"
     },
     {
       "crs": "BLV",
@@ -1072,13 +1182,18 @@
     },
     {
       "crs": "BTY",
-      "name": "Bentley (Hants)",
-      "url": "/bentley-hants/"
+      "name": "Bentley (Hampshire)",
+      "url": "/bentley-hampshire/"
     },
     {
       "crs": "BYK",
-      "name": "Bentley (South Yorks)",
-      "url": "/bentley-south-yorks/"
+      "name": "Bentley (South Yorkshire)",
+      "url": "/bentley-south-yorkshire/"
+    },
+    {
+      "crs": "BNO",
+      "name": "Benton (T & W Metro)",
+      "url": "/benton-t-and-w-metro/"
     },
     {
       "crs": "BAS",
@@ -1102,8 +1217,8 @@
     },
     {
       "crs": "BEP",
-      "name": "Bermuda Park",
-      "url": "/bermuda-park/"
+      "name": "Bermuda Park (Nuneaton)",
+      "url": "/bermuda-park-nuneaton/"
     },
     {
       "crs": "BYA",
@@ -1176,6 +1291,11 @@
       "url": "/bexleyheath/"
     },
     {
+      "crs": "XEZ",
+      "name": "Bicester (Bus)",
+      "url": "/bicester-bus/"
+    },
+    {
       "crs": "BCS",
       "name": "Bicester North",
       "url": "/bicester-north/"
@@ -1212,8 +1332,8 @@
     },
     {
       "crs": "BIL",
-      "name": "Billingham (Cleveland)",
-      "url": "/billingham-cleveland/"
+      "name": "Billingham",
+      "url": "/billingham/"
     },
     {
       "crs": "BIG",
@@ -1237,7 +1357,7 @@
     },
     {
       "crs": "BCH",
-      "name": "Birchington-on-sea",
+      "name": "Birchington-on-Sea",
       "url": "/birchington-on-sea/"
     },
     {
@@ -1261,11 +1381,6 @@
       "url": "/birkenhead-central/"
     },
     {
-      "crs": "BKQ",
-      "name": "Birkenhead Hamilton Square",
-      "url": "/birkenhead-hamilton-square/"
-    },
-    {
       "crs": "BKN",
       "name": "Birkenhead North",
       "url": "/birkenhead-north/"
@@ -1276,6 +1391,11 @@
       "url": "/birkenhead-park/"
     },
     {
+      "crs": "XFG",
+      "name": "Birmingham Airport (Bus)",
+      "url": "/birmingham-airport-bus/"
+    },
+    {
       "crs": "BHI",
       "name": "Birmingham International",
       "url": "/birmingham-international/"
@@ -1284,6 +1404,11 @@
       "crs": "BMO",
       "name": "Birmingham Moor Street",
       "url": "/birmingham-moor-street/"
+    },
+    {
+      "crs": "XNE",
+      "name": "Birmingham NEC (Bus)",
+      "url": "/birmingham-nec-bus/"
     },
     {
       "crs": "BHM",
@@ -1306,19 +1431,29 @@
       "url": "/bishopbriggs/"
     },
     {
+      "crs": "BIB",
+      "name": "Bishops Lydeard",
+      "url": "/bishops-lydeard/"
+    },
+    {
+      "crs": "XLU",
+      "name": "Bishops Lydeard (Bus)",
+      "url": "/bishops-lydeard-bus/"
+    },
+    {
       "crs": "BIS",
       "name": "Bishops Stortford",
       "url": "/bishops-stortford/"
     },
     {
       "crs": "BIP",
-      "name": "Bishopstone (Sussex)",
-      "url": "/bishopstone-sussex/"
+      "name": "Bishopstone",
+      "url": "/bishopstone/"
     },
     {
       "crs": "BPT",
-      "name": "Bishopton (Strathclyde)",
-      "url": "/bishopton-strathclyde/"
+      "name": "Bishopton",
+      "url": "/bishopton/"
     },
     {
       "crs": "BTE",
@@ -1369,6 +1504,11 @@
       "crs": "BAW",
       "name": "Blackwater",
       "url": "/blackwater/"
+    },
+    {
+      "crs": "XKW",
+      "name": "Blackwood (Bus)",
+      "url": "/blackwood-bus/"
     },
     {
       "crs": "BFF",
@@ -1431,9 +1571,24 @@
       "url": "/blundellsands-and-crosby/"
     },
     {
+      "crs": "BLI",
+      "name": "Blyth Bebside",
+      "url": "/blyth-bebside/"
+    },
+    {
       "crs": "BYB",
       "name": "Blythe Bridge",
       "url": "/blythe-bridge/"
+    },
+    {
+      "crs": "BGR",
+      "name": "Boat of Garten Post Off (Bus)",
+      "url": "/boat-of-garten-post-off-bus/"
+    },
+    {
+      "crs": "BDF",
+      "name": "Bodmin Mount Folly (Bus)",
+      "url": "/bodmin-mount-folly-bus/"
     },
     {
       "crs": "BOD",
@@ -1462,8 +1617,13 @@
     },
     {
       "crs": "BTD",
-      "name": "Bolton-Upon-Dearne",
-      "url": "/bolton-upon-dearne/"
+      "name": "Bolton-on-Dearne",
+      "url": "/bolton-on-dearne/"
+    },
+    {
+      "crs": "BDS",
+      "name": "Bond Street",
+      "url": "/bond-street/"
     },
     {
       "crs": "BKA",
@@ -1472,8 +1632,8 @@
     },
     {
       "crs": "BOC",
-      "name": "Bootle (Cumbria)",
-      "url": "/bootle-cumbria/"
+      "name": "Bootle",
+      "url": "/bootle/"
     },
     {
       "crs": "BNW",
@@ -1489,6 +1649,11 @@
       "crs": "BBS",
       "name": "Bordesley",
       "url": "/bordesley/"
+    },
+    {
+      "crs": "BDZ",
+      "name": "Bordon Camp (Bus)",
+      "url": "/bordon-camp-bus/"
     },
     {
       "crs": "BRG",
@@ -1521,6 +1686,11 @@
       "url": "/bottesford/"
     },
     {
+      "crs": "XIB",
+      "name": "Bourg St Maurice",
+      "url": "/bourg-st-maurice/"
+    },
+    {
       "crs": "BNE",
       "name": "Bourne End",
       "url": "/bourne-end/"
@@ -1531,6 +1701,11 @@
       "url": "/bournemouth/"
     },
     {
+      "crs": "BHA",
+      "name": "Bournemouth Hurn Airport (Bus)",
+      "url": "/bournemouth-hurn-airport-bus/"
+    },
+    {
       "crs": "BRV",
       "name": "Bournville",
       "url": "/bournville/"
@@ -1539,6 +1714,11 @@
       "crs": "BWB",
       "name": "Bow Brickhill",
       "url": "/bow-brickhill/"
+    },
+    {
+      "crs": "BOW",
+      "name": "Bow Street",
+      "url": "/bow-street/"
     },
     {
       "crs": "BOP",
@@ -1552,8 +1732,8 @@
     },
     {
       "crs": "BXW",
-      "name": "Box Hill & Westhumble",
-      "url": "/box-hill-and-westhumble/"
+      "name": "Boxhill & Westhumble",
+      "url": "/boxhill-and-westhumble/"
     },
     {
       "crs": "BCE",
@@ -1597,13 +1777,13 @@
     },
     {
       "crs": "BMY",
-      "name": "Bramley (Hants)",
-      "url": "/bramley-hants/"
+      "name": "Bramley (Hampshire)",
+      "url": "/bramley-hampshire/"
     },
     {
       "crs": "BLE",
-      "name": "Bramley (W Yorks)",
-      "url": "/bramley-w-yorks/"
+      "name": "Bramley (West Yorkshire)",
+      "url": "/bramley-west-yorkshire/"
     },
     {
       "crs": "BMP",
@@ -1632,8 +1812,13 @@
     },
     {
       "crs": "BYS",
-      "name": "Braystones (Cumbria)",
-      "url": "/braystones-cumbria/"
+      "name": "Braystones",
+      "url": "/braystones/"
+    },
+    {
+      "crs": "BEO",
+      "name": "Brecon Square (Bus)",
+      "url": "/brecon-square-bus/"
     },
     {
       "crs": "BDY",
@@ -1644,6 +1829,11 @@
       "crs": "BRC",
       "name": "Breich",
       "url": "/breich/"
+    },
+    {
+      "crs": "BCZ",
+      "name": "Brent Cross West",
+      "url": "/brent-cross-west/"
     },
     {
       "crs": "BFD",
@@ -1707,8 +1897,8 @@
     },
     {
       "crs": "BTN",
-      "name": "Brighton (East Sussex)",
-      "url": "/brighton-east-sussex/"
+      "name": "Brighton",
+      "url": "/brighton/"
     },
     {
       "crs": "BMD",
@@ -1721,9 +1911,19 @@
       "url": "/brinnington/"
     },
     {
+      "crs": "XPB",
+      "name": "Bristol Intl Airport (Bus)",
+      "url": "/bristol-intl-airport-bus/"
+    },
+    {
       "crs": "BPW",
       "name": "Bristol Parkway",
       "url": "/bristol-parkway/"
+    },
+    {
+      "crs": "XDU",
+      "name": "Bristol Temple Gate (Bus)",
+      "url": "/bristol-temple-gate-bus/"
     },
     {
       "crs": "BRI",
@@ -1734,6 +1934,11 @@
       "crs": "BHD",
       "name": "Brithdir",
       "url": "/brithdir/"
+    },
+    {
+      "crs": "RBS",
+      "name": "British Steel Redcar",
+      "url": "/british-steel-redcar/"
     },
     {
       "crs": "BNF",
@@ -1776,6 +1981,16 @@
       "url": "/brockley/"
     },
     {
+      "crs": "BNR",
+      "name": "Brockley Whins (T & W Metro)",
+      "url": "/brockley-whins-t-and-w-metro/"
+    },
+    {
+      "crs": "BDC",
+      "name": "Brodick (Bus)",
+      "url": "/brodick-bus/"
+    },
+    {
       "crs": "BOM",
       "name": "Bromborough",
       "url": "/bromborough/"
@@ -1787,8 +2002,8 @@
     },
     {
       "crs": "BMC",
-      "name": "Bromley Cross (Lancs)",
-      "url": "/bromley-cross-lancs/"
+      "name": "Bromley Cross",
+      "url": "/bromley-cross/"
     },
     {
       "crs": "BMN",
@@ -1881,6 +2096,11 @@
       "url": "/brunswick/"
     },
     {
+      "crs": "BXS",
+      "name": "Brussels Midi",
+      "url": "/brussels-midi/"
+    },
+    {
       "crs": "BRU",
       "name": "Bruton",
       "url": "/bruton/"
@@ -1892,8 +2112,13 @@
     },
     {
       "crs": "BUC",
-      "name": "Buckenham (Norfolk)",
-      "url": "/buckenham-norfolk/"
+      "name": "Buckenham",
+      "url": "/buckenham/"
+    },
+    {
+      "crs": "XEY",
+      "name": "Buckingham (Bus)",
+      "url": "/buckingham-bus/"
     },
     {
       "crs": "BCK",
@@ -1909,6 +2134,11 @@
       "crs": "BSV",
       "name": "Buckshaw Parkway",
       "url": "/buckshaw-parkway/"
+    },
+    {
+      "crs": "BUA",
+      "name": "Bude Strand (Bus)",
+      "url": "/bude-strand-bus/"
     },
     {
       "crs": "BGL",
@@ -1952,13 +2182,18 @@
     },
     {
       "crs": "BUD",
-      "name": "Burneside (Cumbria)",
-      "url": "/burneside-cumbria/"
+      "name": "Burneside",
+      "url": "/burneside/"
     },
     {
       "crs": "BNM",
-      "name": "Burnham (Bucks)",
-      "url": "/burnham-bucks/"
+      "name": "Burnham",
+      "url": "/burnham/"
+    },
+    {
+      "crs": "BMK",
+      "name": "Burnham Market (Bus)",
+      "url": "/burnham-market-bus/"
     },
     {
       "crs": "BUU",
@@ -1982,8 +2217,8 @@
     },
     {
       "crs": "BUI",
-      "name": "Burnside (Strathclyde)",
-      "url": "/burnside-strathclyde/"
+      "name": "Burnside",
+      "url": "/burnside/"
     },
     {
       "crs": "BTS",
@@ -2014,6 +2249,11 @@
       "crs": "BUT",
       "name": "Burton-on-Trent",
       "url": "/burton-on-trent/"
+    },
+    {
+      "crs": "BUR",
+      "name": "Bury Metrolink (Bus)",
+      "url": "/bury-metrolink-bus/"
     },
     {
       "crs": "BSE",
@@ -2051,6 +2291,11 @@
       "url": "/buxton/"
     },
     {
+      "crs": "BUZ",
+      "name": "Buxton (Bus)",
+      "url": "/buxton-bus/"
+    },
+    {
       "crs": "BFN",
       "name": "Byfleet & New Haw",
       "url": "/byfleet-and-new-haw/"
@@ -2064,6 +2309,16 @@
       "crs": "CAD",
       "name": "Cadoxton",
       "url": "/cadoxton/"
+    },
+    {
+      "crs": "XKC",
+      "name": "Caerau Park (Bus)",
+      "url": "/caerau-park-bus/"
+    },
+    {
+      "crs": "CSQ",
+      "name": "Caerau Square (Bus)",
+      "url": "/caerau-square-bus/"
     },
     {
       "crs": "CGW",
@@ -2081,6 +2336,16 @@
       "url": "/caersws/"
     },
     {
+      "crs": "CRP",
+      "name": "Cairnyan Port",
+      "url": "/cairnyan-port/"
+    },
+    {
+      "crs": "FRH",
+      "name": "Calais Frethun",
+      "url": "/calais-frethun/"
+    },
+    {
       "crs": "CAC",
       "name": "Caldercruix",
       "url": "/caldercruix/"
@@ -2094,6 +2359,16 @@
       "crs": "CIR",
       "name": "Caledonian Rd & Barnsbury",
       "url": "/caledonian-rd-and-barnsbury/"
+    },
+    {
+      "crs": "XAH",
+      "name": "Callington (Bus)",
+      "url": "/callington-bus/"
+    },
+    {
+      "crs": "XAI",
+      "name": "Calne (Bus)",
+      "url": "/calne-bus/"
     },
     {
       "crs": "CSK",
@@ -2121,6 +2396,11 @@
       "url": "/cambridge/"
     },
     {
+      "crs": "XEC",
+      "name": "Cambridge (Bus)",
+      "url": "/cambridge-bus/"
+    },
+    {
       "crs": "CBH",
       "name": "Cambridge Heath",
       "url": "/cambridge-heath/"
@@ -2146,14 +2426,29 @@
       "url": "/camelon/"
     },
     {
+      "crs": "CBX",
+      "name": "Cameron Bridge",
+      "url": "/cameron-bridge/"
+    },
+    {
       "crs": "ZCW",
       "name": "Canada Water",
       "url": "/canada-water/"
     },
     {
+      "crs": "CWX",
+      "name": "Canary Wharf (Elizabeth line)",
+      "url": "/canary-wharf-elizabeth-line/"
+    },
+    {
       "crs": "CNL",
       "name": "Canley",
       "url": "/canley/"
+    },
+    {
+      "crs": "CNA",
+      "name": "Canna (Bus)",
+      "url": "/canna-bus/"
     },
     {
       "crs": "CAO",
@@ -2191,6 +2486,11 @@
       "url": "/carbis-bay/"
     },
     {
+      "crs": "CAE",
+      "name": "Carbrook (Tram)",
+      "url": "/carbrook-tram/"
+    },
+    {
       "crs": "CDD",
       "name": "Cardenden",
       "url": "/cardenden/"
@@ -2204,6 +2504,16 @@
       "crs": "CDF",
       "name": "Cardiff Central",
       "url": "/cardiff-central/"
+    },
+    {
+      "crs": "CCB",
+      "name": "Cardiff Central Bus Stn",
+      "url": "/cardiff-central-bus-stn/"
+    },
+    {
+      "crs": "XCF",
+      "name": "Cardiff Intl Airport (Bus)",
+      "url": "/cardiff-intl-airport-bus/"
     },
     {
       "crs": "CDQ",
@@ -2227,8 +2537,8 @@
     },
     {
       "crs": "CAK",
-      "name": "Cark & Cartmel",
-      "url": "/cark-and-cartmel/"
+      "name": "Cark",
+      "url": "/cark/"
     },
     {
       "crs": "CAR",
@@ -2311,14 +2621,29 @@
       "url": "/castle-cary/"
     },
     {
+      "crs": "CAQ",
+      "name": "Castle Howard (Bus)",
+      "url": "/castle-howard-bus/"
+    },
+    {
+      "crs": "CAX",
+      "name": "Castle Square (Tram)",
+      "url": "/castle-square-tram/"
+    },
+    {
+      "crs": "CTB",
+      "name": "Castlebay, Barra (Bus)",
+      "url": "/castlebay-barra-bus/"
+    },
+    {
       "crs": "CFD",
       "name": "Castleford",
       "url": "/castleford/"
     },
     {
       "crs": "CAS",
-      "name": "Castleton (Manchester)",
-      "url": "/castleton-manchester/"
+      "name": "Castleton",
+      "url": "/castleton/"
     },
     {
       "crs": "CSM",
@@ -2356,6 +2681,21 @@
       "url": "/cattal/"
     },
     {
+      "crs": "XGO",
+      "name": "Catterick Camp Centre (Bus)",
+      "url": "/catterick-camp-centre-bus/"
+    },
+    {
+      "crs": "CAZ",
+      "name": "Catterick Garrison (Bus)",
+      "url": "/catterick-garrison-bus/"
+    },
+    {
+      "crs": "CGT",
+      "name": "Catterick Garrison Tesco (Bus)",
+      "url": "/catterick-garrison-tesco-bus/"
+    },
+    {
       "crs": "CAU",
       "name": "Causeland",
       "url": "/causeland/"
@@ -2372,8 +2712,8 @@
     },
     {
       "crs": "CFH",
-      "name": "Chafford Hundred Lakeside",
-      "url": "/chafford-hundred-lakeside/"
+      "name": "Chafford Hundred",
+      "url": "/chafford-hundred/"
     },
     {
       "crs": "CFO",
@@ -2396,14 +2736,14 @@
       "url": "/chapel-en-le-frith/"
     },
     {
-      "crs": "CPN",
-      "name": "Chapelton (Devon)",
-      "url": "/chapelton-devon/"
+      "crs": "CLN",
+      "name": "Chapeltown",
+      "url": "/chapeltown/"
     },
     {
-      "crs": "CLN",
-      "name": "Chapeltown (South Yorks)",
-      "url": "/chapeltown-south-yorks/"
+      "crs": "CPN",
+      "name": "Chapleton",
+      "url": "/chapleton/"
     },
     {
       "crs": "CWC",
@@ -2412,8 +2752,8 @@
     },
     {
       "crs": "CHG",
-      "name": "Charing (Kent)",
-      "url": "/charing-kent/"
+      "name": "Charing",
+      "url": "/charing/"
     },
     {
       "crs": "CHC",
@@ -2456,6 +2796,11 @@
       "url": "/chathill/"
     },
     {
+      "crs": "CHZ",
+      "name": "Chatsworth House (Bus)",
+      "url": "/chatsworth-house-bus/"
+    },
+    {
       "crs": "CHU",
       "name": "Cheadle Hulme",
       "url": "/cheadle-hulme/"
@@ -2472,8 +2817,8 @@
     },
     {
       "crs": "CEL",
-      "name": "Chelford (Cheshire)",
-      "url": "/chelford-cheshire/"
+      "name": "Chelford",
+      "url": "/chelford/"
     },
     {
       "crs": "CHM",
@@ -2531,14 +2876,14 @@
       "url": "/chester-road/"
     },
     {
-      "crs": "CHD",
-      "name": "Chesterfield",
-      "url": "/chesterfield/"
-    },
-    {
       "crs": "CLS",
       "name": "Chester-le-Street",
       "url": "/chester-le-street/"
+    },
+    {
+      "crs": "CHD",
+      "name": "Chesterfield",
+      "url": "/chesterfield/"
     },
     {
       "crs": "CSW",
@@ -2576,9 +2921,29 @@
       "url": "/chinley/"
     },
     {
+      "crs": "XCQ",
+      "name": "Chinnor (Bus)",
+      "url": "/chinnor-bus/"
+    },
+    {
       "crs": "CPM",
       "name": "Chippenham",
       "url": "/chippenham/"
+    },
+    {
+      "crs": "XDM",
+      "name": "Chippenham Bath Road (Bus)",
+      "url": "/chippenham-bath-road-bus/"
+    },
+    {
+      "crs": "XDN",
+      "name": "Chippenham New Road (Bus)",
+      "url": "/chippenham-new-road-bus/"
+    },
+    {
+      "crs": "CPG",
+      "name": "Chipping Norton West St (Bus)",
+      "url": "/chipping-norton-west-st-bus/"
     },
     {
       "crs": "CHP",
@@ -2712,8 +3077,8 @@
     },
     {
       "crs": "CLI",
-      "name": "Clifton (Manchester)",
-      "url": "/clifton-manchester/"
+      "name": "Clifton",
+      "url": "/clifton/"
     },
     {
       "crs": "CFN",
@@ -2761,6 +3126,16 @@
       "url": "/cobham-and-stoke-d-abernon/"
     },
     {
+      "crs": "COX",
+      "name": "Cockermouth (Bus)",
+      "url": "/cockermouth-bus/"
+    },
+    {
+      "crs": "ZCK",
+      "name": "Cockfosters Underground",
+      "url": "/cockfosters-underground/"
+    },
+    {
       "crs": "CSL",
       "name": "Codsall",
       "url": "/codsall/"
@@ -2786,6 +3161,11 @@
       "url": "/coleshill-parkway/"
     },
     {
+      "crs": "CLO",
+      "name": "Coll (Bus)",
+      "url": "/coll-bus/"
+    },
+    {
       "crs": "CLM",
       "name": "Collingham",
       "url": "/collingham/"
@@ -2801,6 +3181,11 @@
       "url": "/colne/"
     },
     {
+      "crs": "CYA",
+      "name": "Colonsay (Bus)",
+      "url": "/colonsay-bus/"
+    },
+    {
       "crs": "CWL",
       "name": "Colwall",
       "url": "/colwall/"
@@ -2812,8 +3197,8 @@
     },
     {
       "crs": "CME",
-      "name": "Combe (Oxon)",
-      "url": "/combe-oxon/"
+      "name": "Combe",
+      "url": "/combe/"
     },
     {
       "crs": "COM",
@@ -2891,6 +3276,11 @@
       "url": "/corby/"
     },
     {
+      "crs": "CBZ",
+      "name": "Corby George Street (Bus)",
+      "url": "/corby-george-street-bus/"
+    },
+    {
       "crs": "CFC",
       "name": "Corfe Castle",
       "url": "/corfe-castle/"
@@ -2914,6 +3304,11 @@
       "crs": "CRR",
       "name": "Corrour",
       "url": "/corrour/"
+    },
+    {
+      "crs": "XAO",
+      "name": "Corsham (Bus)",
+      "url": "/corsham-bus/"
     },
     {
       "crs": "COY",
@@ -2967,8 +3362,8 @@
     },
     {
       "crs": "CWN",
-      "name": "Cowden (Kent)",
-      "url": "/cowden-kent/"
+      "name": "Cowden",
+      "url": "/cowden/"
     },
     {
       "crs": "COW",
@@ -2984,6 +3379,11 @@
       "crs": "CGD",
       "name": "Craigendoran",
       "url": "/craigendoran/"
+    },
+    {
+      "crs": "CRU",
+      "name": "Craignure, Mull (Bus)",
+      "url": "/craignure-mull-bus/"
     },
     {
       "crs": "CRM",
@@ -3017,8 +3417,8 @@
     },
     {
       "crs": "CES",
-      "name": "Cressing (Essex)",
-      "url": "/cressing-essex/"
+      "name": "Cressing",
+      "url": "/cressing/"
     },
     {
       "crs": "CSG",
@@ -3054,6 +3454,11 @@
       "crs": "CCC",
       "name": "Criccieth",
       "url": "/criccieth/"
+    },
+    {
+      "crs": "CIN",
+      "name": "Cricket Inn Road (Tram)",
+      "url": "/cricket-inn-road-tram/"
     },
     {
       "crs": "CRI",
@@ -3141,6 +3546,11 @@
       "url": "/crowthorne/"
     },
     {
+      "crs": "ZCO",
+      "name": "Croxley Underground",
+      "url": "/croxley-underground/"
+    },
+    {
       "crs": "CRO",
       "name": "Croy",
       "url": "/croy/"
@@ -3161,9 +3571,19 @@
       "url": "/cuffley/"
     },
     {
+      "crs": "XAM",
+      "name": "Culdrose RNAS (Bus)",
+      "url": "/culdrose-rnas-bus/"
+    },
+    {
       "crs": "CUM",
       "name": "Culham",
       "url": "/culham/"
+    },
+    {
+      "crs": "XDX",
+      "name": "Cullompton (Bus)",
+      "url": "/cullompton-bus/"
     },
     {
       "crs": "CUA",
@@ -3176,6 +3596,11 @@
       "url": "/cumbernauld/"
     },
     {
+      "crs": "CUL",
+      "name": "Cumbrae Slip (Bus)",
+      "url": "/cumbrae-slip-bus/"
+    },
+    {
       "crs": "CUP",
       "name": "Cupar",
       "url": "/cupar/"
@@ -3184,6 +3609,11 @@
       "crs": "CUH",
       "name": "Curriehill",
       "url": "/curriehill/"
+    },
+    {
+      "crs": "CUS",
+      "name": "Custom House",
+      "url": "/custom-house/"
     },
     {
       "crs": "CUX",
@@ -3209,6 +3639,11 @@
       "crs": "DDK",
       "name": "Dagenham Dock",
       "url": "/dagenham-dock/"
+    },
+    {
+      "crs": "ZDE",
+      "name": "Dagenham East Underground",
+      "url": "/dagenham-east-underground/"
     },
     {
       "crs": "DSY",
@@ -3252,8 +3687,8 @@
     },
     {
       "crs": "DLS",
-      "name": "Dalston (Cumbria)",
-      "url": "/dalston-cumbria/"
+      "name": "Dalston",
+      "url": "/dalston/"
     },
     {
       "crs": "DLJ",
@@ -3267,8 +3702,8 @@
     },
     {
       "crs": "DLT",
-      "name": "Dalton (Cumbria)",
-      "url": "/dalton-cumbria/"
+      "name": "Dalton",
+      "url": "/dalton/"
     },
     {
       "crs": "DLW",
@@ -3291,6 +3726,11 @@
       "url": "/danzey/"
     },
     {
+      "crs": "DFZ",
+      "name": "Darfield (Bus)",
+      "url": "/darfield-bus/"
+    },
+    {
       "crs": "DAR",
       "name": "Darlington",
       "url": "/darlington/"
@@ -3309,6 +3749,11 @@
       "crs": "DFD",
       "name": "Dartford",
       "url": "/dartford/"
+    },
+    {
+      "crs": "XAP",
+      "name": "Dartmouth (Bus)",
+      "url": "/dartmouth-bus/"
     },
     {
       "crs": "DRT",
@@ -3347,8 +3792,13 @@
     },
     {
       "crs": "DEN",
-      "name": "Dean (Wilts)",
-      "url": "/dean-wilts/"
+      "name": "Dean",
+      "url": "/dean/"
+    },
+    {
+      "crs": "DNN",
+      "name": "Dean Lane",
+      "url": "/dean-lane/"
     },
     {
       "crs": "DGT",
@@ -3412,18 +3862,28 @@
     },
     {
       "crs": "DBR",
-      "name": "Derby Road (Ipswich)",
-      "url": "/derby-road-ipswich/"
+      "name": "Derby Road",
+      "url": "/derby-road/"
+    },
+    {
+      "crs": "DEB",
+      "name": "Dereham Market Place (Bus)",
+      "url": "/dereham-market-place-bus/"
+    },
+    {
+      "crs": "DKR",
+      "name": "Derker",
+      "url": "/derker/"
+    },
+    {
+      "crs": "XAQ",
+      "name": "Devizes (Bus)",
+      "url": "/devizes-bus/"
     },
     {
       "crs": "DPT",
-      "name": "Devonport (Devon)",
-      "url": "/devonport-devon/"
-    },
-    {
-      "crs": "DOC",
-      "name": "Devonport Dockyard",
-      "url": "/devonport-dockyard/"
+      "name": "Devonport",
+      "url": "/devonport/"
     },
     {
       "crs": "DEW",
@@ -3446,14 +3906,14 @@
       "url": "/dilton-marsh/"
     },
     {
-      "crs": "DMG",
-      "name": "Dinas (Rhondda)",
-      "url": "/dinas-rhondda/"
-    },
-    {
       "crs": "DNS",
       "name": "Dinas Powys",
       "url": "/dinas-powys/"
+    },
+    {
+      "crs": "DMG",
+      "name": "Dinas Rhondda",
+      "url": "/dinas-rhondda/"
     },
     {
       "crs": "DGL",
@@ -3486,6 +3946,11 @@
       "url": "/diss/"
     },
     {
+      "crs": "DOC",
+      "name": "Dockyard",
+      "url": "/dockyard/"
+    },
+    {
       "crs": "DOD",
       "name": "Dodworth",
       "url": "/dodworth/"
@@ -3516,6 +3981,11 @@
       "url": "/doncaster/"
     },
     {
+      "crs": "DOZ",
+      "name": "Doncaster North Bus Stn",
+      "url": "/doncaster-north-bus-stn/"
+    },
+    {
       "crs": "DCH",
       "name": "Dorchester South",
       "url": "/dorchester-south/"
@@ -3527,13 +3997,13 @@
     },
     {
       "crs": "DOR",
-      "name": "Dore & Totley",
-      "url": "/dore-and-totley/"
+      "name": "Dore",
+      "url": "/dore/"
     },
     {
       "crs": "DKG",
-      "name": "Dorking (Main)",
-      "url": "/dorking-main/"
+      "name": "Dorking",
+      "url": "/dorking/"
     },
     {
       "crs": "DPD",
@@ -3554,6 +4024,11 @@
       "crs": "DDG",
       "name": "Dorridge",
       "url": "/dorridge/"
+    },
+    {
+      "crs": "DGS",
+      "name": "Douglas (Isle of Man)",
+      "url": "/douglas-isle-of-man/"
     },
     {
       "crs": "DVH",
@@ -3642,7 +4117,7 @@
     },
     {
       "crs": "DPS",
-      "name": "Dublin Port - Stena",
+      "name": "Dublin Port (Stena)",
       "url": "/dublin-port-stena/"
     },
     {
@@ -3701,6 +4176,11 @@
       "url": "/dumpton-park/"
     },
     {
+      "crs": "DLO",
+      "name": "Dun Laoghaire",
+      "url": "/dun-laoghaire/"
+    },
+    {
       "crs": "DUN",
       "name": "Dunbar",
       "url": "/dunbar/"
@@ -3741,9 +4221,29 @@
       "url": "/dunlop/"
     },
     {
+      "crs": "DUO",
+      "name": "Dunoon (Bus)",
+      "url": "/dunoon-bus/"
+    },
+    {
       "crs": "DNO",
       "name": "Dunrobin Castle",
       "url": "/dunrobin-castle/"
+    },
+    {
+      "crs": "DUU",
+      "name": "Duns (Bus)",
+      "url": "/duns-bus/"
+    },
+    {
+      "crs": "XAD",
+      "name": "Dunstable (Bus)",
+      "url": "/dunstable-bus/"
+    },
+    {
+      "crs": "XDY",
+      "name": "Dunster (Bus)",
+      "url": "/dunster-bus/"
     },
     {
       "crs": "DOT",
@@ -3786,6 +4286,11 @@
       "url": "/ealing-broadway/"
     },
     {
+      "crs": "ZET",
+      "name": "Earl's Court Underground",
+      "url": "/earl-s-court-underground/"
+    },
+    {
       "crs": "ERL",
       "name": "Earlestown",
       "url": "/earlestown/"
@@ -3801,6 +4306,11 @@
       "url": "/earlsfield/"
     },
     {
+      "crs": "EAS",
+      "name": "Earlston, Borders (Bus)",
+      "url": "/earlston-borders-bus/"
+    },
+    {
       "crs": "ELD",
       "name": "Earlswood (Surrey)",
       "url": "/earlswood-surrey/"
@@ -3809,6 +4319,11 @@
       "crs": "EWD",
       "name": "Earlswood (West Midlands)",
       "url": "/earlswood-west-midlands/"
+    },
+    {
+      "crs": "EBL",
+      "name": "East Boldon (T & W Metro)",
+      "url": "/east-boldon-t-and-w-metro/"
     },
     {
       "crs": "ECR",
@@ -3846,9 +4361,19 @@
       "url": "/east-kilbride/"
     },
     {
+      "crs": "ELT",
+      "name": "East Linton",
+      "url": "/east-linton/"
+    },
+    {
       "crs": "EML",
       "name": "East Malling",
       "url": "/east-malling/"
+    },
+    {
+      "crs": "EMA",
+      "name": "East Midlands Airport (Bus)",
+      "url": "/east-midlands-airport-bus/"
     },
     {
       "crs": "EMD",
@@ -3912,8 +4437,8 @@
     },
     {
       "crs": "ECC",
-      "name": "Eccles (Manchester)",
-      "url": "/eccles-manchester/"
+      "name": "Eccles",
+      "url": "/eccles/"
     },
     {
       "crs": "ECS",
@@ -3931,9 +4456,19 @@
       "url": "/edale/"
     },
     {
+      "crs": "EDZ",
+      "name": "Eden Camp (Bus)",
+      "url": "/eden-camp-bus/"
+    },
+    {
       "crs": "EDN",
       "name": "Eden Park",
       "url": "/eden-park/"
+    },
+    {
+      "crs": "XFJ",
+      "name": "Eden Project (Bus)",
+      "url": "/eden-project-bus/"
     },
     {
       "crs": "EBR",
@@ -3954,6 +4489,16 @@
       "crs": "EDB",
       "name": "Edinburgh",
       "url": "/edinburgh/"
+    },
+    {
+      "crs": "EDA",
+      "name": "Edinburgh Airport (Bus or Tram",
+      "url": "/edinburgh-airport-bus-or-tram/"
+    },
+    {
+      "crs": "EBS",
+      "name": "Edinburgh Bus Station",
+      "url": "/edinburgh-bus-station/"
     },
     {
       "crs": "EGY",
@@ -3991,13 +4536,18 @@
       "url": "/egton/"
     },
     {
+      "crs": "EIG",
+      "name": "Eigg (Bus)",
+      "url": "/eigg-bus/"
+    },
+    {
       "crs": "EPH",
       "name": "Elephant & Castle",
       "url": "/elephant-and-castle/"
     },
     {
       "crs": "ZEL",
-      "name": "Elephant & Castle (Underground)",
+      "name": "Elephant & Castle Underground",
       "url": "/elephant-and-castle-underground/"
     },
     {
@@ -4032,8 +4582,8 @@
     },
     {
       "crs": "ESM",
-      "name": "Elsenham (Essex)",
-      "url": "/elsenham-essex/"
+      "name": "Elsenham",
+      "url": "/elsenham/"
     },
     {
       "crs": "ELS",
@@ -4092,8 +4642,8 @@
     },
     {
       "crs": "EPS",
-      "name": "Epsom (Surrey)",
-      "url": "/epsom-surrey/"
+      "name": "Epsom",
+      "url": "/epsom/"
     },
     {
       "crs": "EPD",
@@ -4156,14 +4706,19 @@
       "url": "/ewell-west/"
     },
     {
+      "crs": "XXT",
+      "name": "Exeter Airport (Bus)",
+      "url": "/exeter-airport-bus/"
+    },
+    {
       "crs": "EXC",
       "name": "Exeter Central",
       "url": "/exeter-central/"
     },
     {
       "crs": "EXD",
-      "name": "Exeter St David's",
-      "url": "/exeter-st-david-s/"
+      "name": "Exeter St Davids",
+      "url": "/exeter-st-davids/"
     },
     {
       "crs": "EXT",
@@ -4172,8 +4727,8 @@
     },
     {
       "crs": "EXG",
-      "name": "Exhibition Centre (Glasgow)",
-      "url": "/exhibition-centre-glasgow/"
+      "name": "Exhibition Centre",
+      "url": "/exhibition-centre/"
     },
     {
       "crs": "EXM",
@@ -4189,6 +4744,16 @@
       "crs": "EYN",
       "name": "Eynsford",
       "url": "/eynsford/"
+    },
+    {
+      "crs": "EYM",
+      "name": "Eynsham Church (Bus)",
+      "url": "/eynsham-church-bus/"
+    },
+    {
+      "crs": "FLS",
+      "name": "Failsworth",
+      "url": "/failsworth/"
     },
     {
       "crs": "FRB",
@@ -4321,6 +4886,11 @@
       "url": "/felixstowe/"
     },
     {
+      "crs": "FEG",
+      "name": "Fellgate (T & W Metro)",
+      "url": "/fellgate-t-and-w-metro/"
+    },
+    {
       "crs": "FEL",
       "name": "Feltham",
       "url": "/feltham/"
@@ -4382,8 +4952,8 @@
     },
     {
       "crs": "FSB",
-      "name": "Fishbourne (Sussex)",
-      "url": "/fishbourne-sussex/"
+      "name": "Fishbourne (West Sussex)",
+      "url": "/fishbourne-west-sussex/"
     },
     {
       "crs": "FSG",
@@ -4406,6 +4976,11 @@
       "url": "/fiskerton/"
     },
     {
+      "crs": "FIZ",
+      "name": "Fitzalan Square (Tram)",
+      "url": "/fitzalan-square-tram/"
+    },
+    {
       "crs": "FZW",
       "name": "Fitzwilliam",
       "url": "/fitzwilliam/"
@@ -4414,6 +4989,11 @@
       "crs": "FWY",
       "name": "Five Ways",
       "url": "/five-ways/"
+    },
+    {
+      "crs": "FLZ",
+      "name": "Flamingo Land (Bus)",
+      "url": "/flamingo-land-bus/"
     },
     {
       "crs": "FLE",
@@ -4449,6 +5029,11 @@
       "crs": "FKC",
       "name": "Folkestone Central",
       "url": "/folkestone-central/"
+    },
+    {
+      "crs": "FKH",
+      "name": "Folkestone Harbour (Bus)",
+      "url": "/folkestone-harbour-bus/"
     },
     {
       "crs": "FKW",
@@ -4499,6 +5084,11 @@
       "crs": "FOK",
       "name": "Four Oaks",
       "url": "/four-oaks/"
+    },
+    {
+      "crs": "XAS",
+      "name": "Fowey (Bus)",
+      "url": "/fowey-bus/"
     },
     {
       "crs": "FOX",
@@ -4556,6 +5146,11 @@
       "url": "/frome/"
     },
     {
+      "crs": "XAU",
+      "name": "Frome Town (Bus)",
+      "url": "/frome-town-bus/"
+    },
+    {
       "crs": "FLW",
       "name": "Fulwell",
       "url": "/fulwell/"
@@ -4584,6 +5179,11 @@
       "crs": "GAL",
       "name": "Galashiels",
       "url": "/galashiels/"
+    },
+    {
+      "crs": "XAA",
+      "name": "Galashiels (Bus)",
+      "url": "/galashiels-bus/"
     },
     {
       "crs": "GCH",
@@ -4731,6 +5331,11 @@
       "url": "/glan-conwy/"
     },
     {
+      "crs": "GGT",
+      "name": "Glasgow Airport (Bus)",
+      "url": "/glasgow-airport-bus/"
+    },
+    {
       "crs": "GLC",
       "name": "Glasgow Central",
       "url": "/glasgow-central/"
@@ -4744,6 +5349,11 @@
       "crs": "GLH",
       "name": "Glasshoughton",
       "url": "/glasshoughton/"
+    },
+    {
+      "crs": "XEA",
+      "name": "Glastonbury (Bus)",
+      "url": "/glastonbury-bus/"
     },
     {
       "crs": "GLZ",
@@ -4786,6 +5396,11 @@
       "url": "/glynde/"
     },
     {
+      "crs": "XGZ",
+      "name": "Goathland",
+      "url": "/goathland/"
+    },
+    {
       "crs": "GOB",
       "name": "Gobowen",
       "url": "/gobowen/"
@@ -4809,6 +5424,11 @@
       "crs": "GOE",
       "name": "Goldthorpe",
       "url": "/goldthorpe/"
+    },
+    {
+      "crs": "GOZ",
+      "name": "Goldthorpe (Bus)",
+      "url": "/goldthorpe-bus/"
     },
     {
       "crs": "GOF",
@@ -4876,6 +5496,11 @@
       "url": "/gourock/"
     },
     {
+      "crs": "GXX",
+      "name": "Gourock Pier (Bus)",
+      "url": "/gourock-pier-bus/"
+    },
+    {
       "crs": "GWN",
       "name": "Gowerton",
       "url": "/gowerton/"
@@ -4892,13 +5517,18 @@
     },
     {
       "crs": "GOS",
-      "name": "Grange-Over-Sands",
+      "name": "Grange-over-Sands",
       "url": "/grange-over-sands/"
     },
     {
+      "crs": "GGM",
+      "name": "Grangemouth (Bus)",
+      "url": "/grangemouth-bus/"
+    },
+    {
       "crs": "GTN",
-      "name": "Grangetown (Cardiff)",
-      "url": "/grangetown-cardiff/"
+      "name": "Grangetown",
+      "url": "/grangetown/"
     },
     {
       "crs": "GRA",
@@ -4992,8 +5622,8 @@
     },
     {
       "crs": "GNH",
-      "name": "Greenhithe",
-      "url": "/greenhithe/"
+      "name": "Greenhithe for Bluewater",
+      "url": "/greenhithe-for-bluewater/"
     },
     {
       "crs": "GKC",
@@ -5029,6 +5659,11 @@
       "crs": "GRN",
       "name": "Grindleford",
       "url": "/grindleford/"
+    },
+    {
+      "crs": "GRO",
+      "name": "Groombridge (Bus)",
+      "url": "/groombridge-bus/"
     },
     {
       "crs": "GMT",
@@ -5147,8 +5782,8 @@
     },
     {
       "crs": "HAL",
-      "name": "Hale (Manchester)",
-      "url": "/hale-manchester/"
+      "name": "Hale",
+      "url": "/hale/"
     },
     {
       "crs": "HAS",
@@ -5171,6 +5806,11 @@
       "url": "/hall-green/"
     },
     {
+      "crs": "HID",
+      "name": "Hall I' Th' Wood",
+      "url": "/hall-i-th-wood/"
+    },
+    {
       "crs": "HLR",
       "name": "Hall Road",
       "url": "/hall-road/"
@@ -5179,11 +5819,6 @@
       "crs": "HAI",
       "name": "Halling",
       "url": "/halling/"
-    },
-    {
-      "crs": "HID",
-      "name": "Hall-i'-th'-Wood",
-      "url": "/hall-i-th-wood/"
     },
     {
       "crs": "HWH",
@@ -5206,9 +5841,19 @@
       "url": "/hamilton-central/"
     },
     {
+      "crs": "BKQ",
+      "name": "Hamilton Square",
+      "url": "/hamilton-square/"
+    },
+    {
       "crs": "HNW",
       "name": "Hamilton West",
       "url": "/hamilton-west/"
+    },
+    {
+      "crs": "ZHA",
+      "name": "Hammersmith Underground",
+      "url": "/hammersmith-underground/"
     },
     {
       "crs": "HMM",
@@ -5217,8 +5862,8 @@
     },
     {
       "crs": "HMD",
-      "name": "Hampden Park (Sussex)",
-      "url": "/hampden-park-sussex/"
+      "name": "Hampden Park",
+      "url": "/hampden-park/"
     },
     {
       "crs": "HDH",
@@ -5227,8 +5872,8 @@
     },
     {
       "crs": "HMP",
-      "name": "Hampton (London)",
-      "url": "/hampton-london/"
+      "name": "Hampton",
+      "url": "/hampton/"
     },
     {
       "crs": "HMC",
@@ -5247,8 +5892,8 @@
     },
     {
       "crs": "HSD",
-      "name": "Hamstead (Birmingham)",
-      "url": "/hamstead-birmingham/"
+      "name": "Hamstead",
+      "url": "/hamstead/"
     },
     {
       "crs": "HAM",
@@ -5264,6 +5909,11 @@
       "crs": "HTH",
       "name": "Handforth",
       "url": "/handforth/"
+    },
+    {
+      "crs": "HNY",
+      "name": "Hanley (Bus)",
+      "url": "/hanley-bus/"
     },
     {
       "crs": "HAN",
@@ -5292,8 +5942,8 @@
     },
     {
       "crs": "HLN",
-      "name": "Harlington (Beds)",
-      "url": "/harlington-beds/"
+      "name": "Harlington",
+      "url": "/harlington/"
     },
     {
       "crs": "HWM",
@@ -5304,6 +5954,11 @@
       "crs": "HWN",
       "name": "Harlow Town",
       "url": "/harlow-town/"
+    },
+    {
+      "crs": "HAR",
+      "name": "Harmans Cross",
+      "url": "/harmans-cross/"
     },
     {
       "crs": "HRO",
@@ -5352,8 +6007,8 @@
     },
     {
       "crs": "HTF",
-      "name": "Hartford (Cheshire)",
-      "url": "/hartford-cheshire/"
+      "name": "Hartford",
+      "url": "/hartford/"
     },
     {
       "crs": "HBY",
@@ -5401,14 +6056,14 @@
       "url": "/hatch-end/"
     },
     {
+      "crs": "HAT",
+      "name": "Hatfield",
+      "url": "/hatfield/"
+    },
+    {
       "crs": "HFS",
       "name": "Hatfield & Stainforth",
       "url": "/hatfield-and-stainforth/"
-    },
-    {
-      "crs": "HAT",
-      "name": "Hatfield (Herts)",
-      "url": "/hatfield-herts/"
     },
     {
       "crs": "HAP",
@@ -5429,6 +6084,11 @@
       "crs": "HTN",
       "name": "Hatton",
       "url": "/hatton/"
+    },
+    {
+      "crs": "XHC",
+      "name": "Hatton Cross (Bus)",
+      "url": "/hatton-cross-bus/"
     },
     {
       "crs": "HAV",
@@ -5456,9 +6116,19 @@
       "url": "/hawarden-bridge/"
     },
     {
+      "crs": "HWK",
+      "name": "Hawick (Bus)",
+      "url": "/hawick-bus/"
+    },
+    {
       "crs": "HKH",
       "name": "Hawkhead",
       "url": "/hawkhead/"
+    },
+    {
+      "crs": "HWT",
+      "name": "Haworth (Bus)",
+      "url": "/haworth-bus/"
     },
     {
       "crs": "HDB",
@@ -5471,14 +6141,14 @@
       "url": "/haydons-road/"
     },
     {
-      "crs": "HAY",
-      "name": "Hayes & Harlington",
-      "url": "/hayes-and-harlington/"
-    },
-    {
       "crs": "HYS",
       "name": "Hayes (Kent)",
       "url": "/hayes-kent/"
+    },
+    {
+      "crs": "HAY",
+      "name": "Hayes & Harlington",
+      "url": "/hayes-and-harlington/"
     },
     {
       "crs": "HYL",
@@ -5499,6 +6169,11 @@
       "crs": "HAZ",
       "name": "Hazel Grove",
       "url": "/hazel-grove/"
+    },
+    {
+      "crs": "HBL",
+      "name": "Headbolt Lane",
+      "url": "/headbolt-lane/"
     },
     {
       "crs": "HCN",
@@ -5536,19 +6211,49 @@
       "url": "/heath-low-level/"
     },
     {
-      "crs": "HAF",
-      "name": "Heathrow Airport Terminal 4",
-      "url": "/heathrow-airport-terminal-4/"
-    },
-    {
-      "crs": "HWV",
-      "name": "Heathrow Airport Terminal 5",
-      "url": "/heathrow-airport-terminal-5/"
+      "crs": "HWO",
+      "name": "Heathrow Airport T1 (Bus)",
+      "url": "/heathrow-airport-t1-bus/"
     },
     {
       "crs": "HXX",
-      "name": "Heathrow Airport Terminals 1, 2 and 3",
-      "url": "/heathrow-airport-terminals-1-2-and-3/"
+      "name": "Heathrow Airport T123",
+      "url": "/heathrow-airport-t123/"
+    },
+    {
+      "crs": "HWA",
+      "name": "Heathrow Airport T2 (Bus)",
+      "url": "/heathrow-airport-t2-bus/"
+    },
+    {
+      "crs": "HWE",
+      "name": "Heathrow Airport T3 (Bus)",
+      "url": "/heathrow-airport-t3-bus/"
+    },
+    {
+      "crs": "HAF",
+      "name": "Heathrow Airport T4",
+      "url": "/heathrow-airport-t4/"
+    },
+    {
+      "crs": "HWF",
+      "name": "Heathrow Airport T4 (Bus)",
+      "url": "/heathrow-airport-t4-bus/"
+    },
+    {
+      "crs": "HWV",
+      "name": "Heathrow Airport T5",
+      "url": "/heathrow-airport-t5/"
+    },
+    {
+      "crs": "HWX",
+      "name": "Heathrow Airport T5 (Bus)",
+      "url": "/heathrow-airport-t5-bus/"
+    },
+    {
+      "crs": "HTR",
+      "name": "Heathrow Central Bus Stn",
+      "url": "/heathrow-central-bus-stn/"
     },
     {
       "crs": "HTC",
@@ -5606,6 +6311,11 @@
       "url": "/helsby/"
     },
     {
+      "crs": "XAV",
+      "name": "Helston (Bus)",
+      "url": "/helston-bus/"
+    },
+    {
       "crs": "HML",
       "name": "Hemel Hempstead",
       "url": "/hemel-hempstead/"
@@ -5656,6 +6366,11 @@
       "url": "/hersham/"
     },
     {
+      "crs": "HEH",
+      "name": "Herston Halt",
+      "url": "/herston-halt/"
+    },
+    {
       "crs": "HFE",
       "name": "Hertford East",
       "url": "/hertford-east/"
@@ -5686,6 +6401,11 @@
       "url": "/heworth/"
     },
     {
+      "crs": "HEZ",
+      "name": "Heworth (T & W Metro)",
+      "url": "/heworth-t-and-w-metro/"
+    },
+    {
       "crs": "HEX",
       "name": "Hexham",
       "url": "/hexham/"
@@ -5701,19 +6421,19 @@
       "url": "/heysham-port/"
     },
     {
+      "crs": "ZHB",
+      "name": "High Barnet",
+      "url": "/high-barnet/"
+    },
+    {
       "crs": "HIB",
       "name": "High Brooms",
       "url": "/high-brooms/"
     },
     {
       "crs": "HST",
-      "name": "High Street (Glasgow)",
-      "url": "/high-street-glasgow/"
-    },
-    {
-      "crs": "ZHS",
-      "name": "High Street Kensington Underground",
-      "url": "/high-street-kensington-underground/"
+      "name": "High Street",
+      "url": "/high-street/"
     },
     {
       "crs": "HWY",
@@ -5722,8 +6442,8 @@
     },
     {
       "crs": "HGM",
-      "name": "Higham (Kent)",
-      "url": "/higham-kent/"
+      "name": "Higham",
+      "url": "/higham/"
     },
     {
       "crs": "HIP",
@@ -5782,8 +6502,8 @@
     },
     {
       "crs": "HNK",
-      "name": "Hinckley (Leics)",
-      "url": "/hinckley-leics/"
+      "name": "Hinckley",
+      "url": "/hinckley/"
     },
     {
       "crs": "HIN",
@@ -5794,6 +6514,11 @@
       "crs": "HNA",
       "name": "Hinton Admiral",
       "url": "/hinton-admiral/"
+    },
+    {
+      "crs": "XHW",
+      "name": "Hirwaun (Bus)",
+      "url": "/hirwaun-bus/"
     },
     {
       "crs": "HIT",
@@ -5811,9 +6536,19 @@
       "url": "/hockley/"
     },
     {
+      "crs": "HVH",
+      "name": "Hoek Van Holland",
+      "url": "/hoek-van-holland/"
+    },
+    {
       "crs": "HBN",
       "name": "Hollingbourne",
       "url": "/hollingbourne/"
+    },
+    {
+      "crs": "HOD",
+      "name": "Hollinwood",
+      "url": "/hollinwood/"
     },
     {
       "crs": "HCH",
@@ -5824,6 +6559,11 @@
       "crs": "HLM",
       "name": "Holmwood",
       "url": "/holmwood/"
+    },
+    {
+      "crs": "XEE",
+      "name": "Holsworthy (Bus)",
+      "url": "/holsworthy-bus/"
     },
     {
       "crs": "HOL",
@@ -5962,8 +6702,8 @@
     },
     {
       "crs": "HWW",
-      "name": "How Wood (Herts)",
-      "url": "/how-wood-herts/"
+      "name": "How Wood",
+      "url": "/how-wood/"
     },
     {
       "crs": "HOW",
@@ -5972,8 +6712,8 @@
     },
     {
       "crs": "HOZ",
-      "name": "Howwood (Renfrewshire)",
-      "url": "/howwood-renfrewshire/"
+      "name": "Howwood",
+      "url": "/howwood/"
     },
     {
       "crs": "HOX",
@@ -6006,6 +6746,11 @@
       "url": "/hull/"
     },
     {
+      "crs": "HUU",
+      "name": "Hull (Bus)",
+      "url": "/hull-bus/"
+    },
+    {
       "crs": "HUP",
       "name": "Humphrey Park",
       "url": "/humphrey-park/"
@@ -6026,6 +6771,11 @@
       "url": "/hunmanby/"
     },
     {
+      "crs": "HUS",
+      "name": "Hunstanton (Bus)",
+      "url": "/hunstanton-bus/"
+    },
+    {
       "crs": "HUN",
       "name": "Huntingdon",
       "url": "/huntingdon/"
@@ -6039,6 +6789,11 @@
       "crs": "HNX",
       "name": "Hunts Cross",
       "url": "/hunts-cross/"
+    },
+    {
+      "crs": "HSE",
+      "name": "Hursley Post Office (Bus)",
+      "url": "/hursley-post-office-bus/"
     },
     {
       "crs": "HUR",
@@ -6066,9 +6821,19 @@
       "url": "/hyde-north/"
     },
     {
+      "crs": "HYP",
+      "name": "Hyde Park (Tram)",
+      "url": "/hyde-park-tram/"
+    },
+    {
       "crs": "HKM",
       "name": "Hykeham",
       "url": "/hykeham/"
+    },
+    {
+      "crs": "HCR",
+      "name": "Hykeham Crossroads (Bus)",
+      "url": "/hykeham-crossroads-bus/"
     },
     {
       "crs": "HYN",
@@ -6077,8 +6842,13 @@
     },
     {
       "crs": "HYH",
-      "name": "Hythe (Essex)",
-      "url": "/hythe-essex/"
+      "name": "Hythe",
+      "url": "/hythe/"
+    },
+    {
+      "crs": "HYZ",
+      "name": "Hythe Waterside (Bus)",
+      "url": "/hythe-waterside-bus/"
     },
     {
       "crs": "IBM",
@@ -6111,14 +6881,14 @@
       "url": "/imperial-wharf/"
     },
     {
+      "crs": "INC",
+      "name": "Ince",
+      "url": "/ince/"
+    },
+    {
       "crs": "INE",
       "name": "Ince & Elton",
       "url": "/ince-and-elton/"
-    },
-    {
-      "crs": "INC",
-      "name": "Ince (Manchester)",
-      "url": "/ince-manchester/"
     },
     {
       "crs": "INT",
@@ -6154,6 +6924,11 @@
       "crs": "INV",
       "name": "Inverness",
       "url": "/inverness/"
+    },
+    {
+      "crs": "IVA",
+      "name": "Inverness Airport",
+      "url": "/inverness-airport/"
     },
     {
       "crs": "INH",
@@ -6206,19 +6981,24 @@
       "url": "/james-cook/"
     },
     {
+      "crs": "LVJ",
+      "name": "James Street",
+      "url": "/james-street/"
+    },
+    {
       "crs": "JEQ",
       "name": "Jewellery Quarter",
       "url": "/jewellery-quarter/"
     },
     {
       "crs": "JOH",
-      "name": "Johnston (Pembs)",
-      "url": "/johnston-pembs/"
+      "name": "Johnston",
+      "url": "/johnston/"
     },
     {
       "crs": "JHN",
-      "name": "Johnstone (Strathclyde)",
-      "url": "/johnstone-strathclyde/"
+      "name": "Johnstone",
+      "url": "/johnstone/"
     },
     {
       "crs": "JOR",
@@ -6227,13 +7007,13 @@
     },
     {
       "crs": "KSL",
-      "name": "Kearsley (Manchester)",
-      "url": "/kearsley-manchester/"
+      "name": "Kearsley",
+      "url": "/kearsley/"
     },
     {
       "crs": "KSN",
-      "name": "Kearsney (Kent)",
-      "url": "/kearsney-kent/"
+      "name": "Kearsney",
+      "url": "/kearsney/"
     },
     {
       "crs": "KEI",
@@ -6267,8 +7047,8 @@
     },
     {
       "crs": "KMP",
-      "name": "Kempton Park Racecourse",
-      "url": "/kempton-park-racecourse/"
+      "name": "Kempton Park",
+      "url": "/kempton-park/"
     },
     {
       "crs": "KMS",
@@ -6316,6 +7096,11 @@
       "url": "/kensal-rise/"
     },
     {
+      "crs": "ZHS",
+      "name": "Kensington High St Underground",
+      "url": "/kensington-high-st-underground/"
+    },
+    {
       "crs": "KPA",
       "name": "Kensington Olympia",
       "url": "/kensington-olympia/"
@@ -6346,9 +7131,19 @@
       "url": "/kents-bank/"
     },
     {
+      "crs": "KWK",
+      "name": "Keswick Bus Station",
+      "url": "/keswick-bus-station/"
+    },
+    {
       "crs": "KET",
       "name": "Kettering",
       "url": "/kettering/"
+    },
+    {
+      "crs": "KEZ",
+      "name": "Kettering (Bus)",
+      "url": "/kettering-bus/"
     },
     {
       "crs": "KWB",
@@ -6394,6 +7189,11 @@
       "crs": "KBN",
       "name": "Kilburn High Road",
       "url": "/kilburn-high-road/"
+    },
+    {
+      "crs": "KCG",
+      "name": "Kilcreggan (Bus)",
+      "url": "/kilcreggan-bus/"
     },
     {
       "crs": "KLD",
@@ -6456,6 +7256,11 @@
       "url": "/kings-lynn/"
     },
     {
+      "crs": "KLB",
+      "name": "Kings Lynn Bus Station",
+      "url": "/kings-lynn-bus-station/"
+    },
+    {
       "crs": "KNN",
       "name": "Kings Norton",
       "url": "/kings-norton/"
@@ -6476,6 +7281,11 @@
       "url": "/kings-sutton/"
     },
     {
+      "crs": "XAW",
+      "name": "Kingsbridge (Bus)",
+      "url": "/kingsbridge-bus/"
+    },
+    {
       "crs": "KGE",
       "name": "Kingsknowe",
       "url": "/kingsknowe/"
@@ -6484,6 +7294,11 @@
       "crs": "KNG",
       "name": "Kingston",
       "url": "/kingston/"
+    },
+    {
+      "crs": "KWR",
+      "name": "Kingswear",
+      "url": "/kingswear/"
     },
     {
       "crs": "KND",
@@ -6501,6 +7316,11 @@
       "url": "/kintbury/"
     },
     {
+      "crs": "KTR",
+      "name": "KINTORE",
+      "url": "/kintore/"
+    },
+    {
       "crs": "KBX",
       "name": "Kirby Cross",
       "url": "/kirby-cross/"
@@ -6512,18 +7332,18 @@
     },
     {
       "crs": "KIR",
-      "name": "Kirkby (Merseyside)",
-      "url": "/kirkby-merseyside/"
+      "name": "Kirkby",
+      "url": "/kirkby/"
+    },
+    {
+      "crs": "KKB",
+      "name": "Kirkby in Ashfield",
+      "url": "/kirkby-in-ashfield/"
     },
     {
       "crs": "KSW",
       "name": "Kirkby Stephen",
       "url": "/kirkby-stephen/"
-    },
-    {
-      "crs": "KKB",
-      "name": "Kirkby-in-Ashfield",
-      "url": "/kirkby-in-ashfield/"
     },
     {
       "crs": "KBF",
@@ -6626,6 +7446,11 @@
       "url": "/kyle-of-lochalsh/"
     },
     {
+      "crs": "KYK",
+      "name": "Kyleakin, Skye (Bus)",
+      "url": "/kyleakin-skye-bus/"
+    },
+    {
       "crs": "LDY",
       "name": "Ladybank",
       "url": "/ladybank/"
@@ -6691,9 +7516,14 @@
       "url": "/langho/"
     },
     {
+      "crs": "LHL",
+      "name": "Langholm (Bus)",
+      "url": "/langholm-bus/"
+    },
+    {
       "crs": "LNY",
-      "name": "Langley (Berks)",
-      "url": "/langley-berks/"
+      "name": "Langley",
+      "url": "/langley/"
     },
     {
       "crs": "LGG",
@@ -6746,6 +7576,16 @@
       "url": "/larkhall/"
     },
     {
+      "crs": "LRN",
+      "name": "Larne Harbour (Bus)",
+      "url": "/larne-harbour-bus/"
+    },
+    {
+      "crs": "XAZ",
+      "name": "Launceston Westgate Street",
+      "url": "/launceston-westgate-street/"
+    },
+    {
       "crs": "LAU",
       "name": "Laurencekirk",
       "url": "/laurencekirk/"
@@ -6757,8 +7597,8 @@
     },
     {
       "crs": "LAY",
-      "name": "Layton (Lancs)",
-      "url": "/layton-lancs/"
+      "name": "Layton",
+      "url": "/layton/"
     },
     {
       "crs": "LZB",
@@ -6812,13 +7652,28 @@
     },
     {
       "crs": "LEE",
-      "name": "Lee (London)",
-      "url": "/lee-london/"
+      "name": "Lee",
+      "url": "/lee/"
     },
     {
       "crs": "LDS",
       "name": "Leeds",
       "url": "/leeds/"
+    },
+    {
+      "crs": "XLB",
+      "name": "Leeds Bradford Airport (Bus)",
+      "url": "/leeds-bradford-airport-bus/"
+    },
+    {
+      "crs": "XLD",
+      "name": "Leeds Festival  (Bus)",
+      "url": "/leeds-festival-bus/"
+    },
+    {
+      "crs": "LZZ",
+      "name": "Leeds, Whitehall (Bus)",
+      "url": "/leeds-whitehall-bus/"
     },
     {
       "crs": "LEI",
@@ -6872,13 +7727,23 @@
     },
     {
       "crs": "LEU",
-      "name": "Leuchars (for St. Andrews)",
-      "url": "/leuchars-for-st-andrews/"
+      "name": "Leuchars",
+      "url": "/leuchars/"
+    },
+    {
+      "crs": "LEV",
+      "name": "LEVEN",
+      "url": "/leven/"
     },
     {
       "crs": "LVM",
       "name": "Levenshulme",
       "url": "/levenshulme/"
+    },
+    {
+      "crs": "XLA",
+      "name": "Levisham",
+      "url": "/levisham/"
     },
     {
       "crs": "LWS",
@@ -6921,14 +7786,29 @@
       "url": "/lidlington/"
     },
     {
+      "crs": "LIU",
+      "name": "Lille Europe",
+      "url": "/lille-europe/"
+    },
+    {
       "crs": "LHS",
       "name": "Limehouse",
       "url": "/limehouse/"
     },
     {
+      "crs": "LBS",
+      "name": "Lincoln Bus Station",
+      "url": "/lincoln-bus-station/"
+    },
+    {
       "crs": "LCN",
       "name": "Lincoln Central",
       "url": "/lincoln-central/"
+    },
+    {
+      "crs": "LNF",
+      "name": "Lindford (Bus)",
+      "url": "/lindford-bus/"
     },
     {
       "crs": "LFD",
@@ -6954,6 +7834,11 @@
       "crs": "LSK",
       "name": "Liskeard",
       "url": "/liskeard/"
+    },
+    {
+      "crs": "LSM",
+      "name": "Lismore (Bus)",
+      "url": "/lismore-bus/"
     },
     {
       "crs": "LIS",
@@ -7001,9 +7886,9 @@
       "url": "/liverpool-central/"
     },
     {
-      "crs": "LVJ",
-      "name": "Liverpool James Street",
-      "url": "/liverpool-james-street/"
+      "crs": "LVS",
+      "name": "Liverpool Landing Stage",
+      "url": "/liverpool-landing-stage/"
     },
     {
       "crs": "LIV",
@@ -7191,6 +8076,11 @@
       "url": "/lochailort/"
     },
     {
+      "crs": "LCB",
+      "name": "Lochboisdale, South Uist (Bus)",
+      "url": "/lochboisdale-south-uist-bus/"
+    },
+    {
       "crs": "LCS",
       "name": "Locheilside",
       "url": "/locheilside/"
@@ -7204,6 +8094,11 @@
       "crs": "LCC",
       "name": "Lochluichart",
       "url": "/lochluichart/"
+    },
+    {
+      "crs": "LCH",
+      "name": "Lochmaddy, North Uist (Bus)",
+      "url": "/lochmaddy-north-uist-bus/"
     },
     {
       "crs": "LHW",
@@ -7287,8 +8182,8 @@
     },
     {
       "crs": "STP",
-      "name": "London St Pancras International",
-      "url": "/london-st-pancras-international/"
+      "name": "London St Pancras (Intl)",
+      "url": "/london-st-pancras-intl/"
     },
     {
       "crs": "VIC",
@@ -7421,6 +8316,16 @@
       "url": "/luton/"
     },
     {
+      "crs": "LUB",
+      "name": "Luton (Bus)",
+      "url": "/luton-bus/"
+    },
+    {
+      "crs": "LUA",
+      "name": "Luton Airport (Bus)",
+      "url": "/luton-airport-bus/"
+    },
+    {
       "crs": "LTN",
       "name": "Luton Airport Parkway",
       "url": "/luton-airport-parkway/"
@@ -7437,8 +8342,8 @@
     },
     {
       "crs": "LYE",
-      "name": "Lye (West Midlands)",
-      "url": "/lye-west-midlands/"
+      "name": "Lye",
+      "url": "/lye/"
     },
     {
       "crs": "LYP",
@@ -7459,6 +8364,11 @@
       "crs": "LYM",
       "name": "Lympstone Village",
       "url": "/lympstone-village/"
+    },
+    {
+      "crs": "XBD",
+      "name": "Lyneham Camp (Bus)",
+      "url": "/lyneham-camp-bus/"
     },
     {
       "crs": "LTM",
@@ -7557,8 +8467,8 @@
     },
     {
       "crs": "MUF",
-      "name": "Manchester United Football Ground",
-      "url": "/manchester-united-football-ground/"
+      "name": "Manchester United FC",
+      "url": "/manchester-united-fc/"
     },
     {
       "crs": "MCV",
@@ -7596,6 +8506,11 @@
       "url": "/manors/"
     },
     {
+      "crs": "MRM",
+      "name": "Manors (T & W Metro)",
+      "url": "/manors-t-and-w-metro/"
+    },
+    {
       "crs": "MFT",
       "name": "Mansfield",
       "url": "/mansfield/"
@@ -7612,8 +8527,8 @@
     },
     {
       "crs": "MRN",
-      "name": "Marden (Kent)",
-      "url": "/marden-kent/"
+      "name": "Marden",
+      "url": "/marden/"
     },
     {
       "crs": "MAR",
@@ -7641,9 +8556,19 @@
       "url": "/marks-tey/"
     },
     {
+      "crs": "XBH",
+      "name": "Marlborough (Bus)",
+      "url": "/marlborough-bus/"
+    },
+    {
       "crs": "MLW",
       "name": "Marlow",
       "url": "/marlow/"
+    },
+    {
+      "crs": "MCK",
+      "name": "Marne La Vallee",
+      "url": "/marne-la-vallee/"
     },
     {
       "crs": "MPL",
@@ -7652,8 +8577,18 @@
     },
     {
       "crs": "MSN",
-      "name": "Marsden (Yorks)",
-      "url": "/marsden-yorks/"
+      "name": "Marsden",
+      "url": "/marsden/"
+    },
+    {
+      "crs": "MSC",
+      "name": "Marseille St Charles",
+      "url": "/marseille-st-charles/"
+    },
+    {
+      "crs": "MBT",
+      "name": "Marsh Barton",
+      "url": "/marsh-barton/"
     },
     {
       "crs": "MSK",
@@ -7741,9 +8676,19 @@
       "url": "/melksham/"
     },
     {
+      "crs": "XBO",
+      "name": "Melksham Market Place (Bus)",
+      "url": "/melksham-market-place-bus/"
+    },
+    {
+      "crs": "MLS",
+      "name": "Melrose (Bus)",
+      "url": "/melrose-bus/"
+    },
+    {
       "crs": "MES",
-      "name": "Melton (Suffolk)",
-      "url": "/melton-suffolk/"
+      "name": "Melton",
+      "url": "/melton/"
     },
     {
       "crs": "MMO",
@@ -7807,8 +8752,13 @@
     },
     {
       "crs": "MCE",
-      "name": "MetroCentre",
+      "name": "Metro Centre",
       "url": "/metro-centre/"
+    },
+    {
+      "crs": "XEF",
+      "name": "Mevagissey (Bus)",
+      "url": "/mevagissey-bus/"
     },
     {
       "crs": "MEX",
@@ -7841,6 +8791,11 @@
       "url": "/midgham/"
     },
     {
+      "crs": "XBR",
+      "name": "Midsomer Norton (Bus)",
+      "url": "/midsomer-norton-bus/"
+    },
+    {
       "crs": "MLF",
       "name": "Milford (Surrey)",
       "url": "/milford-surrey/"
@@ -7852,8 +8807,8 @@
     },
     {
       "crs": "MLH",
-      "name": "Mill Hill (Lancs)",
-      "url": "/mill-hill-lancs/"
+      "name": "Mill Hill (Lancashire)",
+      "url": "/mill-hill-lancashire/"
     },
     {
       "crs": "MIL",
@@ -7862,13 +8817,18 @@
     },
     {
       "crs": "MLB",
-      "name": "Millbrook (Beds)",
-      "url": "/millbrook-beds/"
+      "name": "Millbrook (Bedfordshire)",
+      "url": "/millbrook-bedfordshire/"
     },
     {
       "crs": "MBK",
-      "name": "Millbrook (Hants)",
-      "url": "/millbrook-hants/"
+      "name": "Millbrook (Hampshire)",
+      "url": "/millbrook-hampshire/"
+    },
+    {
+      "crs": "MIF",
+      "name": "Millfield (T & W Metro)",
+      "url": "/millfield-t-and-w-metro/"
     },
     {
       "crs": "MIN",
@@ -7882,8 +8842,8 @@
     },
     {
       "crs": "MIH",
-      "name": "Mills Hill (Manchester)",
-      "url": "/mills-hill-manchester/"
+      "name": "Mills Hill",
+      "url": "/mills-hill/"
     },
     {
       "crs": "MLN",
@@ -7891,9 +8851,29 @@
       "url": "/milngavie/"
     },
     {
+      "crs": "MLR",
+      "name": "Milnrow",
+      "url": "/milnrow/"
+    },
+    {
       "crs": "MKC",
       "name": "Milton Keynes Central",
       "url": "/milton-keynes-central/"
+    },
+    {
+      "crs": "MHD",
+      "name": "Minehead",
+      "url": "/minehead/"
+    },
+    {
+      "crs": "XBW",
+      "name": "Minehead (Bus)",
+      "url": "/minehead-bus/"
+    },
+    {
+      "crs": "XBV",
+      "name": "Minehead Butlins (Bus)",
+      "url": "/minehead-butlins-bus/"
     },
     {
       "crs": "MFF",
@@ -8006,6 +8986,11 @@
       "url": "/moreton-in-marsh/"
     },
     {
+      "crs": "XEK",
+      "name": "Moretonhampstead (Bus)",
+      "url": "/moretonhampstead-bus/"
+    },
+    {
       "crs": "MFA",
       "name": "Morfa Mawddach",
       "url": "/morfa-mawddach/"
@@ -8042,8 +9027,8 @@
     },
     {
       "crs": "MSL",
-      "name": "Mossley (Manchester)",
-      "url": "/mossley-manchester/"
+      "name": "Mossley",
+      "url": "/mossley/"
     },
     {
       "crs": "MSH",
@@ -8104,6 +9089,11 @@
       "crs": "MTA",
       "name": "Mountain Ash",
       "url": "/mountain-ash/"
+    },
+    {
+      "crs": "MUK",
+      "name": "Muck (Bus)",
+      "url": "/muck-bus/"
     },
     {
       "crs": "MOO",
@@ -8306,6 +9296,11 @@
       "url": "/newbury/"
     },
     {
+      "crs": "ZNP",
+      "name": "Newbury Park Underground",
+      "url": "/newbury-park-underground/"
+    },
+    {
       "crs": "NRC",
       "name": "Newbury Racecourse",
       "url": "/newbury-racecourse/"
@@ -8314,6 +9309,16 @@
       "crs": "NCL",
       "name": "Newcastle",
       "url": "/newcastle/"
+    },
+    {
+      "crs": "APN",
+      "name": "Newcastle Airport",
+      "url": "/newcastle-airport/"
+    },
+    {
+      "crs": "NCZ",
+      "name": "Newcastle Central Metro",
+      "url": "/newcastle-central-metro/"
     },
     {
       "crs": "NCO",
@@ -8329,6 +9334,11 @@
       "crs": "NVH",
       "name": "Newhaven Harbour",
       "url": "/newhaven-harbour/"
+    },
+    {
+      "crs": "NVM",
+      "name": "Newhaven Marine (Bus)",
+      "url": "/newhaven-marine-bus/"
     },
     {
       "crs": "NVN",
@@ -8361,14 +9371,19 @@
       "url": "/newquay/"
     },
     {
+      "crs": "NWH",
+      "name": "Newsham",
+      "url": "/newsham/"
+    },
+    {
       "crs": "NSD",
       "name": "Newstead",
       "url": "/newstead/"
     },
     {
       "crs": "NTN",
-      "name": "Newton (Lanark)",
-      "url": "/newton-lanark/"
+      "name": "Newton",
+      "url": "/newton/"
     },
     {
       "crs": "NTA",
@@ -8391,24 +9406,24 @@
       "url": "/newton-st-cyres/"
     },
     {
-      "crs": "NEG",
-      "name": "Newtongrange",
-      "url": "/newtongrange/"
-    },
-    {
       "crs": "NLW",
       "name": "Newton-le-Willows",
       "url": "/newton-le-willows/"
     },
     {
-      "crs": "NWR",
-      "name": "Newtonmore",
-      "url": "/newtonmore/"
-    },
-    {
       "crs": "NOA",
       "name": "Newton-on-Ayr",
       "url": "/newton-on-ayr/"
+    },
+    {
+      "crs": "NEG",
+      "name": "Newtongrange",
+      "url": "/newtongrange/"
+    },
+    {
+      "crs": "NWR",
+      "name": "Newtonmore",
+      "url": "/newtonmore/"
     },
     {
       "crs": "NWT",
@@ -8434,6 +9449,11 @@
       "crs": "NRB",
       "name": "Norbury",
       "url": "/norbury/"
+    },
+    {
+      "crs": "NOD",
+      "name": "Norden",
+      "url": "/norden/"
     },
     {
       "crs": "NSB",
@@ -8477,8 +9497,8 @@
     },
     {
       "crs": "NRD",
-      "name": "North Road (Darlington)",
-      "url": "/north-road-darlington/"
+      "name": "North Road",
+      "url": "/north-road/"
     },
     {
       "crs": "NSH",
@@ -8526,9 +9546,19 @@
       "url": "/northumberland-park/"
     },
     {
+      "crs": "NOP",
+      "name": "Northumberland Park (T&W)",
+      "url": "/northumberland-park-t-and-w/"
+    },
+    {
       "crs": "NWI",
       "name": "Northwich",
       "url": "/northwich/"
+    },
+    {
+      "crs": "NTB",
+      "name": "Norton Bridge",
+      "url": "/norton-bridge/"
     },
     {
       "crs": "NRW",
@@ -8556,6 +9586,11 @@
       "url": "/nunhead/"
     },
     {
+      "crs": "NUR",
+      "name": "Nunnery Square (Tram)",
+      "url": "/nunnery-square-tram/"
+    },
+    {
       "crs": "NNT",
       "name": "Nunthorpe",
       "url": "/nunthorpe/"
@@ -8571,6 +9606,11 @@
       "url": "/nutfield/"
     },
     {
+      "crs": "XET",
+      "name": "Nutfield Memorial Hall (Bus)",
+      "url": "/nutfield-memorial-hall-bus/"
+    },
+    {
       "crs": "OKN",
       "name": "Oakengates",
       "url": "/oakengates/"
@@ -8584,6 +9624,11 @@
       "crs": "OKL",
       "name": "Oakleigh Park",
       "url": "/oakleigh-park/"
+    },
+    {
+      "crs": "ZOA",
+      "name": "Oakwood LUL (Enfield)",
+      "url": "/oakwood-lul-enfield/"
     },
     {
       "crs": "OBN",
@@ -8606,6 +9651,11 @@
       "url": "/okehampton/"
     },
     {
+      "crs": "XCG",
+      "name": "Okehampton West Street (Bus)",
+      "url": "/okehampton-west-street-bus/"
+    },
+    {
       "crs": "OHL",
       "name": "Old Hill",
       "url": "/old-hill/"
@@ -8624,6 +9674,16 @@
       "crs": "OLF",
       "name": "Oldfield Park",
       "url": "/oldfield-park/"
+    },
+    {
+      "crs": "OLM",
+      "name": "Oldham Mumps",
+      "url": "/oldham-mumps/"
+    },
+    {
+      "crs": "OLW",
+      "name": "Oldham Werneth",
+      "url": "/oldham-werneth/"
     },
     {
       "crs": "OLT",
@@ -8661,6 +9721,11 @@
       "url": "/otford/"
     },
     {
+      "crs": "OTL",
+      "name": "Otley Bus Station",
+      "url": "/otley-bus-station/"
+    },
+    {
       "crs": "OUN",
       "name": "Oulton Broad North",
       "url": "/oulton-broad-north/"
@@ -8669,6 +9734,11 @@
       "crs": "OUS",
       "name": "Oulton Broad South",
       "url": "/oulton-broad-south/"
+    },
+    {
+      "crs": "OUD",
+      "name": "Oundle Market Place (Bus)",
+      "url": "/oundle-market-place-bus/"
     },
     {
       "crs": "OUT",
@@ -8689,6 +9759,11 @@
       "crs": "OXN",
       "name": "Oxenholme Lake District",
       "url": "/oxenholme-lake-district/"
+    },
+    {
+      "crs": "XOB",
+      "name": "Oxenhope",
+      "url": "/oxenhope/"
     },
     {
       "crs": "OXF",
@@ -8721,6 +9796,11 @@
       "url": "/padgate/"
     },
     {
+      "crs": "PDT",
+      "name": "Padstow Bus Terminus",
+      "url": "/padstow-bus-terminus/"
+    },
+    {
       "crs": "PGN",
       "name": "Paignton",
       "url": "/paignton/"
@@ -8739,6 +9819,11 @@
       "crs": "PYJ",
       "name": "Paisley St James",
       "url": "/paisley-st-james/"
+    },
+    {
+      "crs": "PAI",
+      "name": "Pallion (T & W Metro)",
+      "url": "/pallion-t-and-w-metro/"
     },
     {
       "crs": "PAL",
@@ -8766,14 +9851,34 @@
       "url": "/par/"
     },
     {
+      "crs": "XDR",
+      "name": "Par (Bus)",
+      "url": "/par-bus/"
+    },
+    {
       "crs": "PBL",
       "name": "Parbold",
       "url": "/parbold/"
     },
     {
+      "crs": "PBN",
+      "name": "Paris Nord",
+      "url": "/paris-nord/"
+    },
+    {
+      "crs": "CIC",
+      "name": "Park Lane (Bus)",
+      "url": "/park-lane-bus/"
+    },
+    {
       "crs": "PKT",
       "name": "Park Street",
       "url": "/park-street/"
+    },
+    {
+      "crs": "PAQ",
+      "name": "Parkgate",
+      "url": "/parkgate/"
     },
     {
       "crs": "PKS",
@@ -8821,9 +9926,19 @@
       "url": "/peckham-rye/"
     },
     {
+      "crs": "PBS",
+      "name": "Peebles Bus Stop",
+      "url": "/peebles-bus-stop/"
+    },
+    {
       "crs": "PEG",
       "name": "Pegswood",
       "url": "/pegswood/"
+    },
+    {
+      "crs": "PAW",
+      "name": "Pelaw (T & W Metro)",
+      "url": "/pelaw-t-and-w-metro/"
     },
     {
       "crs": "PEM",
@@ -8844,6 +9959,16 @@
       "crs": "PMD",
       "name": "Pembroke Dock",
       "url": "/pembroke-dock/"
+    },
+    {
+      "crs": "PDK",
+      "name": "Pembroke Dock Ferry Term",
+      "url": "/pembroke-dock-ferry-term/"
+    },
+    {
+      "crs": "PNY",
+      "name": "Pen-y-bont",
+      "url": "/pen-y-bont/"
     },
     {
       "crs": "PNA",
@@ -8912,18 +10037,18 @@
     },
     {
       "crs": "PNR",
-      "name": "Penrith (North Lakes)",
-      "url": "/penrith-north-lakes/"
+      "name": "Penrith",
+      "url": "/penrith/"
     },
     {
       "crs": "PYN",
-      "name": "Penryn (Cornwall)",
-      "url": "/penryn-cornwall/"
+      "name": "Penryn",
+      "url": "/penryn/"
     },
     {
       "crs": "PES",
-      "name": "Pensarn (Gwynedd)",
-      "url": "/pensarn-gwynedd/"
+      "name": "Pensarn",
+      "url": "/pensarn/"
     },
     {
       "crs": "PHR",
@@ -8932,13 +10057,8 @@
     },
     {
       "crs": "PTB",
-      "name": "Pentre-Bach",
+      "name": "Pentre-bach",
       "url": "/pentre-bach/"
-    },
-    {
-      "crs": "PNY",
-      "name": "Pen-y-Bont",
-      "url": "/pen-y-bont/"
     },
     {
       "crs": "PNC",
@@ -8951,9 +10071,19 @@
       "url": "/penyffordd/"
     },
     {
+      "crs": "XPZ",
+      "name": "Penywaun (Bus)",
+      "url": "/penywaun-bus/"
+    },
+    {
       "crs": "PNZ",
       "name": "Penzance",
       "url": "/penzance/"
+    },
+    {
+      "crs": "XCL",
+      "name": "Perranporth (Bus)",
+      "url": "/perranporth-bus/"
     },
     {
       "crs": "PRW",
@@ -8981,6 +10111,11 @@
       "url": "/peterborough/"
     },
     {
+      "crs": "PBU",
+      "name": "Peterborough Queensgate (Bus)",
+      "url": "/peterborough-queensgate-bus/"
+    },
+    {
       "crs": "PTR",
       "name": "Petersfield",
       "url": "/petersfield/"
@@ -9006,6 +10141,21 @@
       "url": "/pewsey/"
     },
     {
+      "crs": "ZPC",
+      "name": "Piccadilly Circus Underground",
+      "url": "/piccadilly-circus-underground/"
+    },
+    {
+      "crs": "XPK",
+      "name": "Pickering",
+      "url": "/pickering/"
+    },
+    {
+      "crs": "PIZ",
+      "name": "Pickering Eastgate (Bus)",
+      "url": "/pickering-eastgate-bus/"
+    },
+    {
       "crs": "PIL",
       "name": "Pilning",
       "url": "/pilning/"
@@ -9024,6 +10174,11 @@
       "crs": "PSE",
       "name": "Pitsea",
       "url": "/pitsea/"
+    },
+    {
+      "crs": "ZPS",
+      "name": "Plaistow",
+      "url": "/plaistow/"
     },
     {
       "crs": "PLS",
@@ -9059,6 +10214,11 @@
       "crs": "PLY",
       "name": "Plymouth",
       "url": "/plymouth/"
+    },
+    {
+      "crs": "XDJ",
+      "name": "Plymouth Saltash Road (Bus)",
+      "url": "/plymouth-saltash-road-bus/"
     },
     {
       "crs": "POK",
@@ -9111,6 +10271,11 @@
       "url": "/ponders-end/"
     },
     {
+      "crs": "PYP",
+      "name": "Pont-y-Pant",
+      "url": "/pont-y-pant/"
+    },
+    {
       "crs": "PTD",
       "name": "Pontarddulais",
       "url": "/pontarddulais/"
@@ -9139,11 +10304,6 @@
       "crs": "PYC",
       "name": "Pontyclun",
       "url": "/pontyclun/"
-    },
-    {
-      "crs": "PYP",
-      "name": "Pont-y-Pant",
-      "url": "/pont-y-pant/"
     },
     {
       "crs": "PPL",
@@ -9191,9 +10351,19 @@
       "url": "/porth/"
     },
     {
+      "crs": "XEO",
+      "name": "Porthcawl (Bus)",
+      "url": "/porthcawl-bus/"
+    },
+    {
       "crs": "PTM",
       "name": "Porthmadog",
       "url": "/porthmadog/"
+    },
+    {
+      "crs": "PMG",
+      "name": "Porthmadog Harbour  (Bus)",
+      "url": "/porthmadog-harbour-bus/"
     },
     {
       "crs": "PLN",
@@ -9219,6 +10389,11 @@
       "crs": "PMH",
       "name": "Portsmouth Harbour",
       "url": "/portsmouth-harbour/"
+    },
+    {
+      "crs": "PRI",
+      "name": "Portway Park and Ride",
+      "url": "/portway-park-and-ride/"
     },
     {
       "crs": "PPK",
@@ -9262,8 +10437,13 @@
     },
     {
       "crs": "PRE",
-      "name": "Preston (Lancs)",
-      "url": "/preston-lancs/"
+      "name": "Preston",
+      "url": "/preston/"
+    },
+    {
+      "crs": "XPT",
+      "name": "Preston C S (Ferry)",
+      "url": "/preston-c-s-ferry/"
     },
     {
       "crs": "PRP",
@@ -9276,9 +10456,14 @@
       "url": "/prestonpans/"
     },
     {
+      "crs": "PWC",
+      "name": "Prestwich Metrolink (Bus)",
+      "url": "/prestwich-metrolink-bus/"
+    },
+    {
       "crs": "PRA",
-      "name": "Prestwick International Airport",
-      "url": "/prestwick-international-airport/"
+      "name": "Prestwick Intl Airport",
+      "url": "/prestwick-intl-airport/"
     },
     {
       "crs": "PTW",
@@ -9296,9 +10481,19 @@
       "url": "/princes-risborough/"
     },
     {
+      "crs": "XPF",
+      "name": "Princetown (Bus)",
+      "url": "/princetown-bus/"
+    },
+    {
       "crs": "PRL",
       "name": "Prittlewell",
       "url": "/prittlewell/"
+    },
+    {
+      "crs": "SIR",
+      "name": "Private Charter",
+      "url": "/private-charter/"
     },
     {
       "crs": "PRU",
@@ -9346,6 +10541,11 @@
       "url": "/pyle/"
     },
     {
+      "crs": "QRD",
+      "name": "Quainton Road",
+      "url": "/quainton-road/"
+    },
+    {
       "crs": "QYD",
       "name": "Quakers Yard",
       "url": "/quakers-yard/"
@@ -9367,12 +10567,12 @@
     },
     {
       "crs": "QRP",
-      "name": "Queens Road (Peckham)",
+      "name": "Queens Road Peckham",
       "url": "/queens-road-peckham/"
     },
     {
       "crs": "QRB",
-      "name": "Queenstown Road (Battersea)",
+      "name": "Queenstown Road Battersea",
       "url": "/queenstown-road-battersea/"
     },
     {
@@ -9382,8 +10582,13 @@
     },
     {
       "crs": "RDF",
-      "name": "Radcliffe-on-Trent",
-      "url": "/radcliffe-on-trent/"
+      "name": "Radcliffe (Nottinghamshire)",
+      "url": "/radcliffe-nottinghamshire/"
+    },
+    {
+      "crs": "RCF",
+      "name": "Radcliffe Metrolink (Bus)",
+      "url": "/radcliffe-metrolink-bus/"
     },
     {
       "crs": "RDT",
@@ -9394,6 +10599,11 @@
       "crs": "RAD",
       "name": "Radley",
       "url": "/radley/"
+    },
+    {
+      "crs": "XEQ",
+      "name": "Radstock (Bus)",
+      "url": "/radstock-bus/"
     },
     {
       "crs": "RDR",
@@ -9424,6 +10634,11 @@
       "crs": "RAM",
       "name": "Ramsgate",
       "url": "/ramsgate/"
+    },
+    {
+      "crs": "RMG",
+      "name": "Ramsgate Harbour (Bus)",
+      "url": "/ramsgate-harbour-bus/"
     },
     {
       "crs": "RGW",
@@ -9476,6 +10691,11 @@
       "url": "/reading/"
     },
     {
+      "crs": "RGP",
+      "name": "Reading Green Park",
+      "url": "/reading-green-park/"
+    },
+    {
       "crs": "RDW",
       "name": "Reading West",
       "url": "/reading-west/"
@@ -9489,11 +10709,6 @@
       "crs": "RDB",
       "name": "Redbridge",
       "url": "/redbridge/"
-    },
-    {
-      "crs": "RBS",
-      "name": "Redcar British Steel",
-      "url": "/redcar-british-steel/"
     },
     {
       "crs": "RCC",
@@ -9546,6 +10761,11 @@
       "url": "/reedham-surrey/"
     },
     {
+      "crs": "REG",
+      "name": "Regent Centre (Bus)",
+      "url": "/regent-centre-bus/"
+    },
+    {
       "crs": "REI",
       "name": "Reigate",
       "url": "/reigate/"
@@ -9556,9 +10776,19 @@
       "url": "/renton/"
     },
     {
+      "crs": "RSN",
+      "name": "Reston",
+      "url": "/reston/"
+    },
+    {
       "crs": "RET",
       "name": "Retford",
       "url": "/retford/"
+    },
+    {
+      "crs": "RHG",
+      "name": "Rhigos (Bus)",
+      "url": "/rhigos-bus/"
     },
     {
       "crs": "RHI",
@@ -9567,13 +10797,18 @@
     },
     {
       "crs": "RIA",
-      "name": "Rhoose Cardiff International Airport",
-      "url": "/rhoose-cardiff-international-airport/"
+      "name": "Rhoose Cardiff Intl Airport",
+      "url": "/rhoose-cardiff-intl-airport/"
     },
     {
       "crs": "RHO",
       "name": "Rhosneigr",
       "url": "/rhosneigr/"
+    },
+    {
+      "crs": "RHU",
+      "name": "Rhum (Bus)",
+      "url": "/rhum-bus/"
     },
     {
       "crs": "RHL",
@@ -9584,6 +10819,11 @@
       "crs": "RHY",
       "name": "Rhymney",
       "url": "/rhymney/"
+    },
+    {
+      "crs": "XTV",
+      "name": "Rhymney Tredegar (Bus)",
+      "url": "/rhymney-tredegar-bus/"
     },
     {
       "crs": "RHD",
@@ -9597,8 +10837,13 @@
     },
     {
       "crs": "RMD",
-      "name": "Richmond (London)",
-      "url": "/richmond-london/"
+      "name": "Richmond",
+      "url": "/richmond/"
+    },
+    {
+      "crs": "RMK",
+      "name": "Richmond, Nth Yorks (Bus)",
+      "url": "/richmond-nth-yorks-bus/"
     },
     {
       "crs": "RIC",
@@ -9634,6 +10879,11 @@
       "crs": "RBR",
       "name": "Robertsbridge",
       "url": "/robertsbridge/"
+    },
+    {
+      "crs": "RHA",
+      "name": "Robin Hood Airport (Bus)",
+      "url": "/robin-hood-airport-bus/"
     },
     {
       "crs": "RRN",
@@ -9706,6 +10956,11 @@
       "url": "/romsey/"
     },
     {
+      "crs": "REB",
+      "name": "Romsey Bus Station",
+      "url": "/romsey-bus-station/"
+    },
+    {
       "crs": "ROO",
       "name": "Roose",
       "url": "/roose/"
@@ -9721,6 +10976,11 @@
       "url": "/rose-hill-marple/"
     },
     {
+      "crs": "RSB",
+      "name": "Rosslare Europort",
+      "url": "/rosslare-europort/"
+    },
+    {
       "crs": "ROS",
       "name": "Rosyth",
       "url": "/rosyth/"
@@ -9734,6 +10994,11 @@
       "crs": "ROE",
       "name": "Rotherhithe",
       "url": "/rotherhithe/"
+    },
+    {
+      "crs": "RTY",
+      "name": "Rothesay, Bute (Bus)",
+      "url": "/rothesay-bute-bus/"
     },
     {
       "crs": "RNR",
@@ -9837,13 +11102,23 @@
     },
     {
       "crs": "RYE",
-      "name": "Rye (Sussex)",
-      "url": "/rye-sussex/"
+      "name": "Rye",
+      "url": "/rye/"
     },
     {
       "crs": "RYH",
       "name": "Rye House",
       "url": "/rye-house/"
+    },
+    {
+      "crs": "XSC",
+      "name": "Salcombe Shadycombe Road",
+      "url": "/salcombe-shadycombe-road/"
+    },
+    {
+      "crs": "SLE",
+      "name": "Sale Metrolink (Bus)",
+      "url": "/sale-metrolink-bus/"
     },
     {
       "crs": "SFD",
@@ -9857,8 +11132,8 @@
     },
     {
       "crs": "SAF",
-      "name": "Salfords (Surrey)",
-      "url": "/salfords-surrey/"
+      "name": "Salfords",
+      "url": "/salfords/"
     },
     {
       "crs": "SAH",
@@ -9927,8 +11202,8 @@
     },
     {
       "crs": "SND",
-      "name": "Sandhurst (Berks)",
-      "url": "/sandhurst-berks/"
+      "name": "Sandhurst",
+      "url": "/sandhurst/"
     },
     {
       "crs": "SDG",
@@ -9944,6 +11219,11 @@
       "crs": "SDP",
       "name": "Sandplace",
       "url": "/sandplace/"
+    },
+    {
+      "crs": "XSA",
+      "name": "Sandringham (Bus)",
+      "url": "/sandringham-bus/"
     },
     {
       "crs": "SAD",
@@ -10016,6 +11296,11 @@
       "url": "/scotstounhill/"
     },
     {
+      "crs": "SCB",
+      "name": "Scrabster (Bus)",
+      "url": "/scrabster-bus/"
+    },
+    {
       "crs": "SCU",
       "name": "Scunthorpe",
       "url": "/scunthorpe/"
@@ -10026,9 +11311,14 @@
       "url": "/sea-mills/"
     },
     {
+      "crs": "SEB",
+      "name": "Seaburn (T & W Metro)",
+      "url": "/seaburn-t-and-w-metro/"
+    },
+    {
       "crs": "SEF",
-      "name": "Seaford (Sussex)",
-      "url": "/seaford-sussex/"
+      "name": "Seaford",
+      "url": "/seaford/"
     },
     {
       "crs": "SFL",
@@ -10056,9 +11346,19 @@
       "url": "/seaton-carew/"
     },
     {
+      "crs": "SEJ",
+      "name": "Seaton Delaval",
+      "url": "/seaton-delaval/"
+    },
+    {
+      "crs": "SSF",
+      "name": "Seaton, Devon (Bus)",
+      "url": "/seaton-devon-bus/"
+    },
+    {
       "crs": "SRG",
-      "name": "Seer Green & Jordans",
-      "url": "/seer-green-and-jordans/"
+      "name": "Seer Green",
+      "url": "/seer-green/"
     },
     {
       "crs": "SBY",
@@ -10069,6 +11369,11 @@
       "crs": "SRS",
       "name": "Selhurst",
       "url": "/selhurst/"
+    },
+    {
+      "crs": "SKK",
+      "name": "Selkirk (Bus)",
+      "url": "/selkirk-bus/"
     },
     {
       "crs": "SEL",
@@ -10121,14 +11426,24 @@
       "url": "/shadwell/"
     },
     {
+      "crs": "SWH",
+      "name": "Shaftesbury Town Hall (Bus)",
+      "url": "/shaftesbury-town-hall-bus/"
+    },
+    {
       "crs": "SFR",
-      "name": "Shalford (Surrey)",
-      "url": "/shalford-surrey/"
+      "name": "Shalford",
+      "url": "/shalford/"
     },
     {
       "crs": "SHN",
       "name": "Shanklin",
       "url": "/shanklin/"
+    },
+    {
+      "crs": "SHA",
+      "name": "Shaw & Crompton",
+      "url": "/shaw-and-crompton/"
     },
     {
       "crs": "SFI",
@@ -10156,9 +11471,19 @@
       "url": "/sheffield/"
     },
     {
+      "crs": "SAI",
+      "name": "Sheffield Arena (Tram)",
+      "url": "/sheffield-arena-tram/"
+    },
+    {
+      "crs": "SHQ",
+      "name": "Sheffield Cathedral(Tram)",
+      "url": "/sheffield-cathedral-tram/"
+    },
+    {
       "crs": "SED",
-      "name": "Shelford (Cambs)",
-      "url": "/shelford-cambs/"
+      "name": "Shelford",
+      "url": "/shelford/"
     },
     {
       "crs": "SNF",
@@ -10172,8 +11497,8 @@
     },
     {
       "crs": "SPB",
-      "name": "Shepherd's Bush",
-      "url": "/shepherd-s-bush/"
+      "name": "Shepherds Bush",
+      "url": "/shepherds-bush/"
     },
     {
       "crs": "SPH",
@@ -10237,8 +11562,8 @@
     },
     {
       "crs": "SHY",
-      "name": "Shipley (Yorks)",
-      "url": "/shipley-yorks/"
+      "name": "Shipley",
+      "url": "/shipley/"
     },
     {
       "crs": "SPP",
@@ -10441,6 +11766,11 @@
       "url": "/snowdown/"
     },
     {
+      "crs": "SOJ",
+      "name": "SOHAM",
+      "url": "/soham/"
+    },
+    {
       "crs": "SOR",
       "name": "Sole Street",
       "url": "/sole-street/"
@@ -10481,6 +11811,11 @@
       "url": "/south-elmsall/"
     },
     {
+      "crs": "SGH",
+      "name": "South Gosforth (T & W Metro)",
+      "url": "/south-gosforth-t-and-w-metro/"
+    },
+    {
       "crs": "SGN",
       "name": "South Greenford",
       "url": "/south-greenford/"
@@ -10494,6 +11829,11 @@
       "crs": "SOH",
       "name": "South Hampstead",
       "url": "/south-hampstead/"
+    },
+    {
+      "crs": "SHZ",
+      "name": "South Hylton (T & W Metro)",
+      "url": "/south-hylton-t-and-w-metro/"
     },
     {
       "crs": "SOK",
@@ -10546,6 +11886,21 @@
       "url": "/southampton-central/"
     },
     {
+      "crs": "XSN",
+      "name": "Southampton Eastern Docks",
+      "url": "/southampton-eastern-docks/"
+    },
+    {
+      "crs": "STQ",
+      "name": "Southampton Town Quay (Bus)",
+      "url": "/southampton-town-quay-bus/"
+    },
+    {
+      "crs": "XSK",
+      "name": "Southampton Western Docks",
+      "url": "/southampton-western-docks/"
+    },
+    {
       "crs": "SOB",
       "name": "Southbourne",
       "url": "/southbourne/"
@@ -10589,6 +11944,21 @@
       "crs": "SOP",
       "name": "Southport",
       "url": "/southport/"
+    },
+    {
+      "crs": "SOZ",
+      "name": "Southport, Lord Street (Bus)",
+      "url": "/southport-lord-street-bus/"
+    },
+    {
+      "crs": "SHV",
+      "name": "Southsea Hoverport (Bus)",
+      "url": "/southsea-hoverport-bus/"
+    },
+    {
+      "crs": "SLZ",
+      "name": "Southwell (Bus)",
+      "url": "/southwell-bus/"
     },
     {
       "crs": "SWK",
@@ -10646,14 +12016,19 @@
       "url": "/squires-gate/"
     },
     {
+      "crs": "SAC",
+      "name": "St Albans",
+      "url": "/st-albans/"
+    },
+    {
       "crs": "SAA",
       "name": "St Albans Abbey",
       "url": "/st-albans-abbey/"
     },
     {
-      "crs": "SAC",
-      "name": "St Albans City",
-      "url": "/st-albans-city/"
+      "crs": "SAO",
+      "name": "St Andrews (Bus)",
+      "url": "/st-andrews-bus/"
     },
     {
       "crs": "SAR",
@@ -10662,8 +12037,8 @@
     },
     {
       "crs": "SAS",
-      "name": "St Annes-on-Sea",
-      "url": "/st-annes-on-sea/"
+      "name": "St Annes-on-the-Sea",
+      "url": "/st-annes-on-the-sea/"
     },
     {
       "crs": "SAU",
@@ -10717,28 +12092,33 @@
     },
     {
       "crs": "SIH",
-      "name": "St Helier (Surrey)",
-      "url": "/st-helier-surrey/"
+      "name": "St Helier",
+      "url": "/st-helier/"
     },
     {
       "crs": "SIV",
-      "name": "St Ives (Cornwall)",
-      "url": "/st-ives-cornwall/"
+      "name": "St Ives",
+      "url": "/st-ives/"
     },
     {
-      "crs": "SJP",
-      "name": "St James Park (Exeter)",
-      "url": "/st-james-park-exeter/"
+      "crs": "SJN",
+      "name": "St James (T & W Metro)",
+      "url": "/st-james-t-and-w-metro/"
     },
     {
       "crs": "SJS",
-      "name": "St James Street (Walthamstow)",
-      "url": "/st-james-street-walthamstow/"
+      "name": "St James Street",
+      "url": "/st-james-street/"
+    },
+    {
+      "crs": "SJP",
+      "name": "St James' Park",
+      "url": "/st-james-park/"
     },
     {
       "crs": "SAJ",
-      "name": "St Johns (London)",
-      "url": "/st-johns-london/"
+      "name": "St Johns",
+      "url": "/st-johns/"
     },
     {
       "crs": "SKN",
@@ -10752,8 +12132,8 @@
     },
     {
       "crs": "SMT",
-      "name": "St Margarets (Herts)",
-      "url": "/st-margarets-herts/"
+      "name": "St Margarets (Hertfordshire)",
+      "url": "/st-margarets-hertfordshire/"
     },
     {
       "crs": "SMG",
@@ -10774,6 +12154,21 @@
       "crs": "SNO",
       "name": "St Neots",
       "url": "/st-neots/"
+    },
+    {
+      "crs": "XEI",
+      "name": "St Neots (Bus)",
+      "url": "/st-neots-bus/"
+    },
+    {
+      "crs": "STZ",
+      "name": "St Peters (T & W Metro)",
+      "url": "/st-peters-t-and-w-metro/"
+    },
+    {
+      "crs": "STI",
+      "name": "Stadium of Light (T & W Metro)",
+      "url": "/stadium-of-light-t-and-w-metro/"
     },
     {
       "crs": "STA",
@@ -10797,8 +12192,8 @@
     },
     {
       "crs": "SMD",
-      "name": "Stamford (Lincs)",
-      "url": "/stamford-lincs/"
+      "name": "Stamford",
+      "url": "/stamford/"
     },
     {
       "crs": "SMH",
@@ -10811,6 +12206,11 @@
       "url": "/stanford-le-hope/"
     },
     {
+      "crs": "SNP",
+      "name": "Stanhope",
+      "url": "/stanhope/"
+    },
+    {
       "crs": "SNT",
       "name": "Stanlow & Thornton",
       "url": "/stanlow-and-thornton/"
@@ -10819,6 +12219,11 @@
       "crs": "SSD",
       "name": "Stansted Airport",
       "url": "/stansted-airport/"
+    },
+    {
+      "crs": "XTH",
+      "name": "Stansted Airport Bus Stop",
+      "url": "/stansted-airport-bus-stop/"
     },
     {
       "crs": "SST",
@@ -10847,8 +12252,8 @@
     },
     {
       "crs": "SVL",
-      "name": "Staveley (Cumbria)",
-      "url": "/staveley-cumbria/"
+      "name": "Staveley",
+      "url": "/staveley/"
     },
     {
       "crs": "SCF",
@@ -10927,13 +12332,23 @@
     },
     {
       "crs": "SNE",
-      "name": "Stone (Staffs)",
-      "url": "/stone-staffs/"
+      "name": "Stone",
+      "url": "/stone/"
     },
     {
       "crs": "SCG",
       "name": "Stone Crossing",
       "url": "/stone-crossing/"
+    },
+    {
+      "crs": "SCN",
+      "name": "Stone Crown Street (Bus)",
+      "url": "/stone-crown-street-bus/"
+    },
+    {
+      "crs": "SGQ",
+      "name": "Stone Granville Square (Bus)",
+      "url": "/stone-granville-square-bus/"
     },
     {
       "crs": "SBP",
@@ -10961,6 +12376,11 @@
       "url": "/stoneleigh/"
     },
     {
+      "crs": "SOY",
+      "name": "Stornoway, Lewis (Bus)",
+      "url": "/stornoway-lewis-bus/"
+    },
+    {
       "crs": "SBJ",
       "name": "Stourbridge Junction",
       "url": "/stourbridge-junction/"
@@ -10986,6 +12406,11 @@
       "url": "/stranraer/"
     },
     {
+      "crs": "SWP",
+      "name": "Stranraer West Pier (Bus)",
+      "url": "/stranraer-west-pier-bus/"
+    },
+    {
       "crs": "SRA",
       "name": "Stratford (London)",
       "url": "/stratford-london/"
@@ -10996,14 +12421,14 @@
       "url": "/stratford-international/"
     },
     {
+      "crs": "STY",
+      "name": "Stratford Parkway",
+      "url": "/stratford-parkway/"
+    },
+    {
       "crs": "SAV",
       "name": "Stratford-upon-Avon",
       "url": "/stratford-upon-avon/"
-    },
-    {
-      "crs": "STY",
-      "name": "Stratford-upon-Avon Parkway",
-      "url": "/stratford-upon-avon-parkway/"
     },
     {
       "crs": "STC",
@@ -11017,8 +12442,8 @@
     },
     {
       "crs": "STE",
-      "name": "Streatham (Greater London)",
-      "url": "/streatham-greater-london/"
+      "name": "Streatham",
+      "url": "/streatham/"
     },
     {
       "crs": "SRC",
@@ -11031,9 +12456,19 @@
       "url": "/streatham-hill/"
     },
     {
+      "crs": "XCU",
+      "name": "Street (Bus)",
+      "url": "/street-bus/"
+    },
+    {
       "crs": "SHC",
       "name": "Streethouse",
       "url": "/streethouse/"
+    },
+    {
+      "crs": "SRF",
+      "name": "Stretford Metrolink (Bus)",
+      "url": "/stretford-metrolink-bus/"
     },
     {
       "crs": "SRN",
@@ -11047,13 +12482,13 @@
     },
     {
       "crs": "SOO",
-      "name": "Strood (Kent)",
-      "url": "/strood-kent/"
+      "name": "Strood",
+      "url": "/strood/"
     },
     {
       "crs": "STD",
-      "name": "Stroud (Gloucs)",
-      "url": "/stroud-gloucs/"
+      "name": "Stroud",
+      "url": "/stroud/"
     },
     {
       "crs": "STU",
@@ -11066,14 +12501,14 @@
       "url": "/styal/"
     },
     {
+      "crs": "SUY",
+      "name": "Sudbury",
+      "url": "/sudbury/"
+    },
+    {
       "crs": "SUD",
       "name": "Sudbury & Harrow Road",
       "url": "/sudbury-and-harrow-road/"
-    },
-    {
-      "crs": "SUY",
-      "name": "Sudbury (Suffolk)",
-      "url": "/sudbury-suffolk/"
     },
     {
       "crs": "SDH",
@@ -11127,8 +12562,8 @@
     },
     {
       "crs": "SUO",
-      "name": "Sutton (Surrey)",
-      "url": "/sutton-surrey/"
+      "name": "Sutton (London)",
+      "url": "/sutton-london/"
     },
     {
       "crs": "SUT",
@@ -11146,9 +12581,19 @@
       "url": "/sutton-parkway/"
     },
     {
+      "crs": "SWB",
+      "name": "Swaffham Tourist Inf Ctr (Bus)",
+      "url": "/swaffham-tourist-inf-ctr-bus/"
+    },
+    {
       "crs": "SWL",
       "name": "Swale",
       "url": "/swale/"
+    },
+    {
+      "crs": "SGE",
+      "name": "Swanage",
+      "url": "/swanage/"
     },
     {
       "crs": "SAY",
@@ -11164,6 +12609,11 @@
       "crs": "SWA",
       "name": "Swansea",
       "url": "/swansea/"
+    },
+    {
+      "crs": "SWF",
+      "name": "Swansea Docks (Bus)",
+      "url": "/swansea-docks-bus/"
     },
     {
       "crs": "SNW",
@@ -11186,9 +12636,19 @@
       "url": "/swinderby/"
     },
     {
+      "crs": "SWC",
+      "name": "Swinderby A46 Roundabout (Bus)",
+      "url": "/swinderby-a46-roundabout-bus/"
+    },
+    {
       "crs": "SWI",
-      "name": "Swindon (Wilts)",
-      "url": "/swindon-wilts/"
+      "name": "Swindon",
+      "url": "/swindon/"
+    },
+    {
+      "crs": "XDK",
+      "name": "Swindon Bus Station",
+      "url": "/swindon-bus-station/"
     },
     {
       "crs": "SWE",
@@ -11202,13 +12662,13 @@
     },
     {
       "crs": "SWN",
-      "name": "Swinton (South Yorks)",
-      "url": "/swinton-south-yorks/"
+      "name": "Swinton (South Yorkshire)",
+      "url": "/swinton-south-yorkshire/"
     },
     {
       "crs": "SYD",
-      "name": "Sydenham (London)",
-      "url": "/sydenham-london/"
+      "name": "Sydenham",
+      "url": "/sydenham/"
     },
     {
       "crs": "SYH",
@@ -11246,6 +12706,11 @@
       "url": "/tain/"
     },
     {
+      "crs": "TLC",
+      "name": "Tal-y-Cafn",
+      "url": "/tal-y-cafn/"
+    },
+    {
       "crs": "TAL",
       "name": "Talsarnau",
       "url": "/talsarnau/"
@@ -11254,11 +12719,6 @@
       "crs": "TLB",
       "name": "Talybont",
       "url": "/talybont/"
-    },
-    {
-      "crs": "TLC",
-      "name": "Tal-y-Cafn",
-      "url": "/tal-y-cafn/"
     },
     {
       "crs": "TAB",
@@ -11271,9 +12731,19 @@
       "url": "/tamworth/"
     },
     {
+      "crs": "TYB",
+      "name": "Tan-y-Bwlch  (Bus)",
+      "url": "/tan-y-bwlch-bus/"
+    },
+    {
       "crs": "TAP",
       "name": "Taplow",
       "url": "/taplow/"
+    },
+    {
+      "crs": "TBT",
+      "name": "Tarbert, Harris (Bus)",
+      "url": "/tarbert-harris-bus/"
     },
     {
       "crs": "TAT",
@@ -11286,6 +12756,16 @@
       "url": "/taunton/"
     },
     {
+      "crs": "XDQ",
+      "name": "Taunton (Bus)",
+      "url": "/taunton-bus/"
+    },
+    {
+      "crs": "XCV",
+      "name": "Tavistock Bus Station (Bus)",
+      "url": "/tavistock-bus-station-bus/"
+    },
+    {
       "crs": "TAY",
       "name": "Taynuilt",
       "url": "/taynuilt/"
@@ -11294,6 +12774,11 @@
       "crs": "TED",
       "name": "Teddington",
       "url": "/teddington/"
+    },
+    {
+      "crs": "TVA",
+      "name": "Tees Valley Airport (Bus)",
+      "url": "/tees-valley-airport-bus/"
     },
     {
       "crs": "TEA",
@@ -11331,6 +12816,11 @@
       "url": "/thames-ditton/"
     },
     {
+      "crs": "THP",
+      "name": "Thanet Parkway",
+      "url": "/thanet-parkway/"
+    },
+    {
       "crs": "THA",
       "name": "Thatcham",
       "url": "/thatcham/"
@@ -11347,8 +12837,8 @@
     },
     {
       "crs": "TLK",
-      "name": "The Lakes (Warks)",
-      "url": "/the-lakes-warks/"
+      "name": "The Lakes",
+      "url": "/the-lakes/"
     },
     {
       "crs": "THE",
@@ -11456,6 +12946,11 @@
       "url": "/thurston/"
     },
     {
+      "crs": "TBR",
+      "name": "Tilbury Riverside (Bus)",
+      "url": "/tilbury-riverside-bus/"
+    },
+    {
       "crs": "TIL",
       "name": "Tilbury Town",
       "url": "/tilbury-town/"
@@ -11471,14 +12966,29 @@
       "url": "/tilehurst/"
     },
     {
+      "crs": "TIN",
+      "name": "Tinsley Meadowhall (Tram)",
+      "url": "/tinsley-meadowhall-tram/"
+    },
+    {
+      "crs": "XCY",
+      "name": "Tintagel (Bus)",
+      "url": "/tintagel-bus/"
+    },
+    {
       "crs": "TIP",
       "name": "Tipton",
       "url": "/tipton/"
     },
     {
       "crs": "TIR",
-      "name": "Tir-Phil",
+      "name": "Tir-phil",
       "url": "/tir-phil/"
+    },
+    {
+      "crs": "TEE",
+      "name": "Tiree (Bus)",
+      "url": "/tiree-bus/"
     },
     {
       "crs": "TIS",
@@ -11486,9 +12996,19 @@
       "url": "/tisbury/"
     },
     {
+      "crs": "XDA",
+      "name": "Tiverton (Bus)",
+      "url": "/tiverton-bus/"
+    },
+    {
       "crs": "TVP",
       "name": "Tiverton Parkway",
       "url": "/tiverton-parkway/"
+    },
+    {
+      "crs": "TOB",
+      "name": "Tobermory, Mull (Bus)",
+      "url": "/tobermory-mull-bus/"
     },
     {
       "crs": "TOD",
@@ -11551,6 +13071,11 @@
       "url": "/totnes/"
     },
     {
+      "crs": "TCR",
+      "name": "Tottenham Court Road",
+      "url": "/tottenham-court-road/"
+    },
+    {
       "crs": "TOM",
       "name": "Tottenham Hale",
       "url": "/tottenham-hale/"
@@ -11561,6 +13086,16 @@
       "url": "/totton/"
     },
     {
+      "crs": "ZTG",
+      "name": "Tower Gateway DLR",
+      "url": "/tower-gateway-dlr/"
+    },
+    {
+      "crs": "ZTH",
+      "name": "Tower Hill Underground",
+      "url": "/tower-hill-underground/"
+    },
+    {
       "crs": "TWN",
       "name": "Town Green",
       "url": "/town-green/"
@@ -11569,6 +13104,11 @@
       "crs": "TRA",
       "name": "Trafford Park",
       "url": "/trafford-park/"
+    },
+    {
+      "crs": "XTO",
+      "name": "Trecynon (Bus)",
+      "url": "/trecynon-bus/"
     },
     {
       "crs": "TRF",
@@ -11646,6 +13186,16 @@
       "url": "/turkey-street/"
     },
     {
+      "crs": "ZTU",
+      "name": "Turnham Green Underground",
+      "url": "/turnham-green-underground/"
+    },
+    {
+      "crs": "ZTL",
+      "name": "Turnpike Lane",
+      "url": "/turnpike-lane/"
+    },
+    {
       "crs": "TUT",
       "name": "Tutbury & Hatton",
       "url": "/tutbury-and-hatton/"
@@ -11686,6 +13236,11 @@
       "url": "/tyndrum-lower/"
     },
     {
+      "crs": "TYP",
+      "name": "Tynemouth (T & W Metro)",
+      "url": "/tynemouth-t-and-w-metro/"
+    },
+    {
       "crs": "TYS",
       "name": "Tyseley",
       "url": "/tyseley/"
@@ -11706,9 +13261,19 @@
       "url": "/uddingston/"
     },
     {
+      "crs": "UIG",
+      "name": "Uig, Skye (Bus)",
+      "url": "/uig-skye-bus/"
+    },
+    {
       "crs": "ULC",
       "name": "Ulceby",
       "url": "/ulceby/"
+    },
+    {
+      "crs": "ULP",
+      "name": "Ullapool (Bus)",
+      "url": "/ullapool-bus/"
     },
     {
       "crs": "ULL",
@@ -11727,8 +13292,13 @@
     },
     {
       "crs": "UNI",
-      "name": "University (Birmingham)",
-      "url": "/university-birmingham/"
+      "name": "University",
+      "url": "/university/"
+    },
+    {
+      "crs": "UNV",
+      "name": "University (T & W Metro)",
+      "url": "/university-t-and-w-metro/"
     },
     {
       "crs": "UHA",
@@ -11744,6 +13314,11 @@
       "crs": "UPM",
       "name": "Upminster",
       "url": "/upminster/"
+    },
+    {
+      "crs": "ZUM",
+      "name": "Upminster Underground",
+      "url": "/upminster-underground/"
     },
     {
       "crs": "UPH",
@@ -11767,8 +13342,8 @@
     },
     {
       "crs": "UPT",
-      "name": "Upton (Merseyside)",
-      "url": "/upton-merseyside/"
+      "name": "Upton",
+      "url": "/upton/"
     },
     {
       "crs": "UPW",
@@ -11791,6 +13366,11 @@
       "url": "/valley/"
     },
     {
+      "crs": "VAE",
+      "name": "Valley Centertainment (Tram)",
+      "url": "/valley-centertainment-tram/"
+    },
+    {
       "crs": "VXH",
       "name": "Vauxhall",
       "url": "/vauxhall/"
@@ -11804,6 +13384,11 @@
       "crs": "WDO",
       "name": "Waddon",
       "url": "/waddon/"
+    },
+    {
+      "crs": "WBE",
+      "name": "Wadebridge Bus Station",
+      "url": "/wadebridge-bus-station/"
     },
     {
       "crs": "WAD",
@@ -11839,6 +13424,11 @@
       "crs": "WLV",
       "name": "Wallasey Village",
       "url": "/wallasey-village/"
+    },
+    {
+      "crs": "XWX",
+      "name": "Wallingford Market Place (Bus)",
+      "url": "/wallingford-market-place-bus/"
     },
     {
       "crs": "WLT",
@@ -11877,8 +13467,8 @@
     },
     {
       "crs": "WMW",
-      "name": "Walthamstow Queen's Road",
-      "url": "/walthamstow-queen-s-road/"
+      "name": "Walthamstow Queens Road",
+      "url": "/walthamstow-queens-road/"
     },
     {
       "crs": "WAO",
@@ -11921,6 +13511,11 @@
       "url": "/wanstead-park/"
     },
     {
+      "crs": "XDC",
+      "name": "Wantage (Bus)",
+      "url": "/wantage-bus/"
+    },
+    {
       "crs": "WPE",
       "name": "Wapping",
       "url": "/wapping/"
@@ -11932,13 +13527,13 @@
     },
     {
       "crs": "WAR",
-      "name": "Ware (Herts)",
-      "url": "/ware-herts/"
+      "name": "Ware",
+      "url": "/ware/"
     },
     {
       "crs": "WRM",
-      "name": "Wareham (Dorset)",
-      "url": "/wareham-dorset/"
+      "name": "Wareham",
+      "url": "/wareham/"
     },
     {
       "crs": "WGV",
@@ -11981,6 +13576,16 @@
       "url": "/warwick-parkway/"
     },
     {
+      "crs": "XWU",
+      "name": "Warwick University (Bus)",
+      "url": "/warwick-university-bus/"
+    },
+    {
+      "crs": "WCT",
+      "name": "Watchet (Bus)",
+      "url": "/watchet-bus/"
+    },
+    {
       "crs": "WTO",
       "name": "Water Orton",
       "url": "/water-orton/"
@@ -11999,6 +13604,11 @@
       "crs": "WLO",
       "name": "Waterloo (Merseyside)",
       "url": "/waterloo-merseyside/"
+    },
+    {
+      "crs": "ZWA",
+      "name": "Waterloo Underground",
+      "url": "/waterloo-underground/"
     },
     {
       "crs": "WFH",
@@ -12027,18 +13637,23 @@
     },
     {
       "crs": "WNG",
-      "name": "Waun-Gron Park",
+      "name": "Waun-gron Park",
       "url": "/waun-gron-park/"
     },
     {
       "crs": "WAV",
-      "name": "Wavertree Technology Park",
-      "url": "/wavertree-technology-park/"
+      "name": "Wavertree Tech Park",
+      "url": "/wavertree-tech-park/"
     },
     {
       "crs": "WED",
       "name": "Wedgwood",
       "url": "/wedgwood/"
+    },
+    {
+      "crs": "WER",
+      "name": "Wedgwood Old Road Bridge (Bus)",
+      "url": "/wedgwood-old-road-bridge-bus/"
     },
     {
       "crs": "WEE",
@@ -12069,6 +13684,16 @@
       "crs": "WLN",
       "name": "Wellington (Shropshire)",
       "url": "/wellington-shropshire/"
+    },
+    {
+      "crs": "XDH",
+      "name": "Wells (Bus)",
+      "url": "/wells-bus/"
+    },
+    {
+      "crs": "WEN",
+      "name": "Wells-Next-The-Sea (Bus)",
+      "url": "/wells-next-the-sea-bus/"
     },
     {
       "crs": "WLP",
@@ -12231,6 +13856,11 @@
       "url": "/westbury/"
     },
     {
+      "crs": "XDS",
+      "name": "Westbury (Bus)",
+      "url": "/westbury-bus/"
+    },
+    {
       "crs": "WCF",
       "name": "Westcliff",
       "url": "/westcliff/"
@@ -12302,8 +13932,8 @@
     },
     {
       "crs": "WHE",
-      "name": "Whalley (Lancs)",
-      "url": "/whalley-lancs/"
+      "name": "Whalley",
+      "url": "/whalley/"
     },
     {
       "crs": "WTS",
@@ -12336,14 +13966,19 @@
       "url": "/whitby/"
     },
     {
+      "crs": "WTZ",
+      "name": "Whitby Bus Station",
+      "url": "/whitby-bus-station/"
+    },
+    {
       "crs": "WHT",
-      "name": "Whitchurch (Cardiff)",
-      "url": "/whitchurch-cardiff/"
+      "name": "Whitchurch (Glamorgan)",
+      "url": "/whitchurch-glamorgan/"
     },
     {
       "crs": "WCH",
-      "name": "Whitchurch (Hants)",
-      "url": "/whitchurch-hants/"
+      "name": "Whitchurch (Hampshire)",
+      "url": "/whitchurch-hampshire/"
     },
     {
       "crs": "WTC",
@@ -12374,6 +14009,11 @@
       "crs": "WTH",
       "name": "Whitehaven",
       "url": "/whitehaven/"
+    },
+    {
+      "crs": "WHH",
+      "name": "Whitehill Prince of Wales (Bus",
+      "url": "/whitehill-prince-of-wales-bus/"
     },
     {
       "crs": "WTL",
@@ -12407,13 +14047,13 @@
     },
     {
       "crs": "WTN",
-      "name": "Whitton (London)",
-      "url": "/whitton-london/"
+      "name": "Whitton",
+      "url": "/whitton/"
     },
     {
       "crs": "WWL",
-      "name": "Whitwell (Derbyshire)",
-      "url": "/whitwell-derbyshire/"
+      "name": "Whitwell",
+      "url": "/whitwell/"
     },
     {
       "crs": "WHY",
@@ -12502,8 +14142,8 @@
     },
     {
       "crs": "WNE",
-      "name": "Wilnecote (Staffs)",
-      "url": "/wilnecote-staffs/"
+      "name": "Wilnecote",
+      "url": "/wilnecote/"
     },
     {
       "crs": "WIM",
@@ -12566,6 +14206,11 @@
       "url": "/winsford/"
     },
     {
+      "crs": "WIS",
+      "name": "Wisbech Horsefair (Bus)",
+      "url": "/wisbech-horsefair-bus/"
+    },
+    {
       "crs": "WSH",
       "name": "Wishaw",
       "url": "/wishaw/"
@@ -12581,9 +14226,14 @@
       "url": "/witley/"
     },
     {
+      "crs": "WMP",
+      "name": "Witney Market Place (Bus)",
+      "url": "/witney-market-place-bus/"
+    },
+    {
       "crs": "WTT",
-      "name": "Witton (West Midlands)",
-      "url": "/witton-west-midlands/"
+      "name": "Witton",
+      "url": "/witton/"
     },
     {
       "crs": "WVF",
@@ -12646,6 +14296,11 @@
       "url": "/woodbridge/"
     },
     {
+      "crs": "WOD",
+      "name": "Woodburn Road (Tram)",
+      "url": "/woodburn-road-tram/"
+    },
+    {
       "crs": "WGR",
       "name": "Woodgrange Park",
       "url": "/woodgrange-park/"
@@ -12671,6 +14326,11 @@
       "url": "/woodley/"
     },
     {
+      "crs": "WDY",
+      "name": "Woodley, Hunters Inn (Bus)",
+      "url": "/woodley-hunters-inn-bus/"
+    },
+    {
       "crs": "WME",
       "name": "Woodmansterne",
       "url": "/woodmansterne/"
@@ -12691,6 +14351,11 @@
       "url": "/woolston/"
     },
     {
+      "crs": "WWC",
+      "name": "Woolwich (Elizabeth line)",
+      "url": "/woolwich-elizabeth-line/"
+    },
+    {
       "crs": "WWA",
       "name": "Woolwich Arsenal",
       "url": "/woolwich-arsenal/"
@@ -12699,6 +14364,11 @@
       "crs": "WWD",
       "name": "Woolwich Dockyard",
       "url": "/woolwich-dockyard/"
+    },
+    {
+      "crs": "XDI",
+      "name": "Wootton Bassett (Bus)",
+      "url": "/wootton-bassett-bus/"
     },
     {
       "crs": "WWW",
@@ -12729,6 +14399,11 @@
       "crs": "WKG",
       "name": "Workington",
       "url": "/workington/"
+    },
+    {
+      "crs": "WOX",
+      "name": "Workington Bus Station",
+      "url": "/workington-bus-station/"
     },
     {
       "crs": "WRK",
@@ -12826,6 +14501,11 @@
       "url": "/yarm/"
     },
     {
+      "crs": "YMH",
+      "name": "Yarmouth (Isle of Wight)",
+      "url": "/yarmouth-isle-of-wight/"
+    },
+    {
       "crs": "YAE",
       "name": "Yate",
       "url": "/yate/"
@@ -12839,6 +14519,11 @@
       "crs": "YEO",
       "name": "Yeoford",
       "url": "/yeoford/"
+    },
+    {
+      "crs": "YVB",
+      "name": "Yeovil Bus Station",
+      "url": "/yeovil-bus-station/"
     },
     {
       "crs": "YVJ",
